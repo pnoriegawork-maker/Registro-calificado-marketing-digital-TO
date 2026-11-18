@@ -88,26 +88,45 @@ window.SECTIONS['c3'] = `
             </div>
         </div>
 
-        <!-- 4 TARJETAS KPI DE ÁREAS DE FORMACIÓN -->
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:14px; margin-bottom:20px;">
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1E40AF; border-radius:10px; padding:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-                <div style="font-size:0.7rem; font-weight:800; color:#1E40AF; text-transform:uppercase; margin-bottom:4px;">Área Transversal</div>
-                <div style="font-size:1.45rem; font-weight:900; color:#1A1A1B;">30 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (20,8%)</span></div>
+        <!-- 4 TARJETAS KPI DE ÁREAS DE FORMACIÓN (CON TRIGGER A OPENAREAMODAL) -->
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:14px; margin-bottom:20px;">
+            <!-- ÁREA TRANSVERSAL -->
+            <div class="card" onclick="openAreaModal('TRANSVERSAL')" style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1E40AF; border-radius:10px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,0.05); cursor:pointer; transition:transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 16px rgba(30,64,175,0.15)';" onmouseout="this.style.transform='none'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.05)';" title="Clic para ver el desagregado oficial del Área Transversal">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                    <div style="font-size:0.72rem; font-weight:800; color:#1E40AF; text-transform:uppercase;">ÁREA TRANSVERSAL</div>
+                    <span style="font-size:0.65rem; color:#1E40AF; background:#EFF6FF; padding:2px 8px; border-radius:4px; font-weight:800;"><i class="fas fa-search-plus"></i> Desagregado</span>
+                </div>
+                <div style="font-size:1.55rem; font-weight:900; color:#1A1A1B;">30 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (20,8%)</span></div>
                 <div style="font-size:0.75rem; color:#4B5563; margin-top:4px;">10 Asignaturas · Ciencias Básicas, Idiomas B1 y Humanidades</div>
             </div>
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #F39200; border-radius:10px; padding:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-                <div style="font-size:0.7rem; font-weight:800; color:#C2410C; text-transform:uppercase; margin-bottom:4px;">Área Disciplinar</div>
-                <div style="font-size:1.45rem; font-weight:900; color:#1A1A1B;">105 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (72,9%)</span></div>
+
+            <!-- ÁREA DISCIPLINAR -->
+            <div class="card" onclick="openAreaModal('DISCIPLINAR')" style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #F39200; border-radius:10px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,0.05); cursor:pointer; transition:transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 16px rgba(243,146,0,0.18)';" onmouseout="this.style.transform='none'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.05)';" title="Clic para ver el desagregado oficial del Área Disciplinar">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                    <div style="font-size:0.72rem; font-weight:800; color:#C2410C; text-transform:uppercase;">ÁREA DISCIPLINAR</div>
+                    <span style="font-size:0.65rem; color:#C2410C; background:#FFF7ED; padding:2px 8px; border-radius:4px; font-weight:800;"><i class="fas fa-search-plus"></i> Desagregado</span>
+                </div>
+                <div style="font-size:1.55rem; font-weight:900; color:#1A1A1B;">105 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (72,9%)</span></div>
                 <div style="font-size:0.75rem; color:#4B5563; margin-top:4px;">35 Asignaturas · MarTech, Estrategia, Big Data y E-commerce</div>
             </div>
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #16A34A; border-radius:10px; padding:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-                <div style="font-size:0.7rem; font-weight:800; color:#166534; text-transform:uppercase; margin-bottom:4px;">Área Electiva</div>
-                <div style="font-size:1.45rem; font-weight:900; color:#1A1A1B;">9 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (6,3%)</span></div>
+
+            <!-- ÁREA ELECTIVA -->
+            <div class="card" onclick="openAreaModal('ELECTIVA')" style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #16A34A; border-radius:10px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,0.05); cursor:pointer; transition:transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 16px rgba(22,163,74,0.15)';" onmouseout="this.style.transform='none'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.05)';" title="Clic para ver el desagregado oficial del Área Electiva">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                    <div style="font-size:0.72rem; font-weight:800; color:#166534; text-transform:uppercase;">ÁREA ELECTIVA</div>
+                    <span style="font-size:0.65rem; color:#166534; background:#ECFDF5; padding:2px 8px; border-radius:4px; font-weight:800;"><i class="fas fa-search-plus"></i> Desagregado</span>
+                </div>
+                <div style="font-size:1.55rem; font-weight:900; color:#1A1A1B;">9 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (6,3%)</span></div>
                 <div style="font-size:0.75rem; color:#4B5563; margin-top:4px;">3 Asignaturas · 6 Opciones de Profundización Estratégica</div>
             </div>
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1A1A1B; border-radius:10px; padding:14px; box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-                <div style="font-size:0.7rem; font-weight:800; color:#1A1A1B; text-transform:uppercase; margin-bottom:4px;">Total Plan Propuesto</div>
-                <div style="font-size:1.45rem; font-weight:900; color:#F39200;">144 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (100%)</span></div>
+
+            <!-- TOTAL PLAN PROPUESTO -->
+            <div class="card" onclick="openAreaModal('ALL')" style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1A1A1B; border-radius:10px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,0.05); cursor:pointer; transition:transform 0.15s, box-shadow 0.15s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='none'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.05)';" title="Clic para ver el consolidado global de las 48 asignaturas">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                    <div style="font-size:0.72rem; font-weight:800; color:#1A1A1B; text-transform:uppercase;">TOTAL PLAN PROPUESTO</div>
+                    <span style="font-size:0.65rem; color:#1A1A1B; background:#F3F4F6; padding:2px 8px; border-radius:4px; font-weight:800;"><i class="fas fa-search-plus"></i> Consolidado</span>
+                </div>
+                <div style="font-size:1.55rem; font-weight:900; color:#F39200;">144 <span style="font-size:0.85rem; font-weight:700; color:#6B7280;">Cr (100%)</span></div>
                 <div style="font-size:0.75rem; color:#4B5563; margin-top:4px;">48 Asignaturas · 8 Semestres · 6.912 Horas Globales</div>
             </div>
         </div>
@@ -171,7 +190,7 @@ window.SECTIONS['c3'] = `
 
             <div style="overflow-x:auto; max-height:480px; border:1px solid #E5E7EB; border-radius:8px;">
                 <table style="width:100%; border-collapse:collapse; font-size:0.76rem; text-align:left;">
-                    <thead style="position:sticky; top:0; background:#F8F9FA; border-bottom:2px solid #D1D5DB; z-index:2;">
+                    <thead style="position:sticky; top:0; background:#F8FAFC; border-bottom:2px solid #D1D5DB; z-index:2;">
                         <tr style="color:#1A1A1B; font-weight:800;">
                             <th style="padding:8px 10px; width:45px;">Sem</th>
                             <th style="padding:8px 10px; width:75px;">Código</th>
@@ -597,8 +616,206 @@ window.setMktModalityMode = function(mode) {
 };
 
 // =========================================================
+// VENTANA EMERGENTE (MODAL) PARA DESAGREGADO POR ÁREA
+// (BENCHMARK OFICIAL ADMINISTRACIÓN DE EMPRESAS)
+// =========================================================
+window.openAreaModal = function(areaId) {
+    let existing = document.getElementById('c3AreaModalOverlay');
+    if (existing) existing.remove();
+
+    const cleanId = (areaId || '').toUpperCase();
+    const allSubs = window.C3_SUBJECTS || [];
+
+    let areaTitle = '';
+    let areaDesc = '';
+    let areaColor = '#1E40AF';
+    let subList = [];
+
+    if (cleanId === 'ALL') {
+        areaTitle = 'Consolidado Global: Plan de Estudios Oficial (144 Créditos · 8 Semestres)';
+        areaDesc = 'Estructura curricular completa de Marketing Digital bajo la modalidad de Registro Único (Presencial y Virtual), organizada en 48 asignaturas de 3 créditos cada una, con articulación directa entre competencias del perfil de egreso, Resultados de Aprendizaje del Programa (RAPs) y créditos académicos aprobados por el Consejo Superior mediante Acuerdo No. 03 del 13 de marzo de 2026.';
+        areaColor = '#1A1A1B';
+        subList = allSubs;
+    } else if (cleanId === 'TRANSVERSAL') {
+        areaTitle = 'Área de Formación Transversal';
+        areaDesc = 'Proporciona la fundamentación matemática, cuantitativa, investigativa, sociohumanística, ética y de segunda lengua (Inglés B1) indispensable para el razonamiento analítico, la comunicación profesional y la comprensión integral del entorno socioeconómico digital.';
+        areaColor = '#1E40AF';
+        subList = allSubs.filter(s => (s.area || '').toUpperCase() === 'TRANSVERSAL');
+    } else if (cleanId === 'DISCIPLINAR') {
+        areaTitle = 'Área de Formación Disciplinar';
+        areaDesc = 'Constituye el núcleo profesional del Profesional en Marketing Digital, integrando las tecnologías de la información (MarTech), analítica web, Big Data, inteligencia artificial, comercio electrónico, estrategias de contenido, branding digital y performance marketing para liderar organizaciones competitivas en la economía digital.';
+        areaColor = '#F39200';
+        subList = allSubs.filter(s => (s.area || '').toUpperCase() === 'DISCIPLINAR');
+    } else if (cleanId === 'ELECTIVA') {
+        areaTitle = 'Área de Formación Electiva';
+        areaDesc = 'Brinda flexibilidad curricular y profundización personalizada en tendencias contemporáneas del mercadeo como Growth Marketing, Neuromarketing, E-commerce Avanzado, Computación Espacial y Modelos de Negocio en Red, fortaleciendo la adaptabilidad profesional del egresado.';
+        areaColor = '#16A34A';
+        subList = allSubs.filter(s => (s.area || '').toUpperCase() === 'ELECTIVA');
+    }
+
+    const totalSubs = subList.length;
+    const totalCr = subList.reduce((acc, s) => acc + (s.creditos || 0), 0);
+    const pctPlan = ((totalCr / 144) * 100).toFixed(2);
+
+    const teoSubs = subList.filter(s => (s.tipo || 'T') === 'T');
+    const tpSubs = subList.filter(s => s.tipo === 'TP');
+    const teoCr = teoSubs.reduce((acc, s) => acc + s.creditos, 0);
+    const tpCr = tpSubs.reduce((acc, s) => acc + s.creditos, 0);
+    const teoPct = totalSubs > 0 ? ((teoSubs.length / totalSubs) * 100).toFixed(1) : '0';
+    const tpPct = totalSubs > 0 ? ((tpSubs.length / totalSubs) * 100).toFixed(1) : '0';
+
+    const planBadge = '<span style="background:#059669; color:#fff; padding:4px 10px; border-radius:6px; font-size:0.74rem; font-weight:800; display:inline-flex; align-items:center; gap:5px;"><i class="fas fa-rocket"></i> Propuesta Curricular Aprobada (144 cr · 8 Semestres)</span>';
+
+    const rowsHtml = subList.map(s => {
+        const isTP = s.tipo === 'TP';
+        const tipoBadge = isTP ?
+            '<span style="background:#ECFDF5; color:#047857; font-size:0.72rem; font-weight:800; padding:2px 8px; border-radius:4px; border:1px solid #A7F3D0;"><i class="fas fa-tools"></i> Teórico-Práctica (TP)</span>' :
+            '<span style="background:#EFF6FF; color:#1D4ED8; font-size:0.72rem; font-weight:800; padding:2px 8px; border-radius:4px; border:1px solid #BFDBFE;"><i class="fas fa-chalkboard"></i> Teórica (T)</span>';
+        
+        return `
+            <tr style="border-bottom:1px solid #E2E8F0; cursor:pointer;" onclick="openSubjectModal('${s.id}')" title="Clic para ver ficha microcurricular completa">
+                <td style="padding:10px 12px; text-align:center; font-weight:800; color:#0369A1;">S${s.semestre}</td>
+                <td style="padding:10px 12px; font-weight:700; color:#1A1A1B;">${s.nombre}</td>
+                <td style="padding:10px 12px; text-align:center;">${tipoBadge}</td>
+                <td style="padding:10px 12px; text-align:center; font-weight:800; background:#F8FAFC;">${s.creditos} cr</td>
+                <td style="padding:10px 12px; text-align:center; color:#0369A1; font-weight:700; font-size:0.78rem;">48h / 96h</td>
+                <td style="padding:10px 12px; text-align:center; color:#15803D; font-weight:700; font-size:0.78rem;">36h / 108h</td>
+                <td style="padding:10px 12px; color:#64748B; font-size:0.78rem;">${s.prerrequisito}</td>
+                <td style="padding:10px 12px; text-align:center;">
+                    <button class="viewer-nav-btn next" style="background:#1A1A1B; color:#FFFFFF; border:none; padding:4px 10px; font-size:0.74rem; font-weight:700; border-radius:4px; cursor:pointer;" onclick="event.stopPropagation(); openSubjectModal('${s.id}')">
+                        <i class="fas fa-eye"></i> Ver Ficha
+                    </button>
+                </td>
+            </tr>
+        `;
+    }).join('');
+
+    const modalHtml = `
+        <div id="c3AreaModalOverlay" class="subject-modal-overlay" onclick="closeAreaModal(event)" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(15,23,42,0.75); backdrop-filter:blur(6px); z-index:100000; display:flex; align-items:center; justify-content:center; padding:16px; box-sizing:border-box;">
+            <div class="subject-modal-container" onclick="event.stopPropagation()" style="background:#fff; border-radius:12px; width:100%; max-width:980px; max-height:92vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.35); border-top:6px solid ${areaColor}; overflow:hidden;">
+                
+                <!-- HEADER FIJO -->
+                <div style="padding:18px 24px; border-bottom:1px solid #E2E8F0; display:flex; justify-content:space-between; align-items:center; background:#F8FAFC;">
+                    <div>
+                        <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:6px;">
+                            ${planBadge}
+                            <span style="background:${areaColor}; color:#fff; padding:4px 10px; border-radius:6px; font-size:0.74rem; font-weight:800;"><i class="fas fa-layer-group"></i> Desagregado Oficial</span>
+                        </div>
+                        <h3 style="font-family:var(--font-heading); font-size:1.35rem; font-weight:800; color:#1A1A1B; margin:0;">
+                            ${areaTitle}
+                        </h3>
+                    </div>
+                    <button onclick="closeAreaModal()" style="background:#E2E8F0; border:none; width:36px; height:36px; border-radius:50%; cursor:pointer; font-size:1.15rem; color:#475569; display:flex; align-items:center; justify-content:center; transition:background 0.2s; flex-shrink:0;">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- CONTENIDO SCROLLEABLE -->
+                <div style="padding:24px; overflow-y:auto; flex:1;">
+
+                    <!-- PROPOSITO DEL AREA -->
+                    <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-left:4px solid ${areaColor}; padding:14px 16px; border-radius:8px; margin-bottom:18px;">
+                        <strong style="color:#1A1A1B; font-size:0.86rem; display:flex; align-items:center; gap:6px;">
+                            <i class="fas fa-info-circle" style="color:${areaColor};"></i> Propósito Formativo del Área en el Plan de Estudios:
+                        </strong>
+                        <p style="font-size:0.83rem; color:#4B5563; margin:6px 0 0 0; line-height:1.5;">${areaDesc}</p>
+                    </div>
+
+                    <!-- 4 KPI CARDS DEL AREA INCLUYENDO TEORICAS Y PRACTICAS -->
+                    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:18px;">
+                        <div class="card" style="padding:12px; text-align:center; border:1px solid #E5E7EB; border-top:3px solid #1A1A1B; background:#FFFFFF; border-radius:8px;">
+                            <div style="font-size:1.6rem; font-weight:900; color:#1A1A1B;">${totalSubs}</div>
+                            <div style="font-size:0.75rem; font-weight:700; color:#1A1A1B; margin-top:2px;">Asignaturas Totales</div>
+                            <div style="font-size:0.7rem; color:#6B7280;">100% del Área</div>
+                        </div>
+
+                        <div class="card" style="padding:12px; text-align:center; border:1px solid #E5E7EB; border-top:3px solid ${areaColor}; background:#FFFFFF; border-radius:8px;">
+                            <div style="font-size:1.6rem; font-weight:900; color:${areaColor};">${totalCr} cr</div>
+                            <div style="font-size:0.75rem; font-weight:700; color:#1A1A1B; margin-top:2px;">Créditos Académicos</div>
+                            <div style="font-size:0.7rem; color:#6B7280;">${pctPlan}% del Plan Total</div>
+                        </div>
+
+                        <div class="card" style="padding:12px; text-align:center; border:1px solid #BFDBFE; border-top:3px solid #2563EB; background:#EFF6FF; border-radius:8px;">
+                            <div style="font-size:1.6rem; font-weight:900; color:#1D4ED8;">${teoSubs.length}</div>
+                            <div style="font-size:0.75rem; font-weight:800; color:#1E40AF; margin-top:2px;">Teóricas (T)</div>
+                            <div style="font-size:0.72rem; color:#1E3A8A; font-weight:700;">${teoCr} Créditos (${teoPct}%)</div>
+                        </div>
+
+                        <div class="card" style="padding:12px; text-align:center; border:1px solid #A7F3D0; border-top:3px solid #059669; background:#ECFDF5; border-radius:8px;">
+                            <div style="font-size:1.6rem; font-weight:900; color:#047857;">${tpSubs.length}</div>
+                            <div style="font-size:0.75rem; font-weight:800; color:#065F46; margin-top:2px;">Teórico-Prácticas (TP)</div>
+                            <div style="font-size:0.72rem; color:#064E3B; font-weight:700;">${tpCr} Créditos (${tpPct}%)</div>
+                        </div>
+                    </div>
+
+                    <!-- RESUMEN VISUAL DE TEORIA Y PRACTICA -->
+                    <div style="background:#FFFFFF; border:1px solid #CBD5E1; padding:12px 16px; border-radius:8px; margin-bottom:20px;">
+                        <div style="display:flex; justify-content:space-between; font-size:0.8rem; font-weight:800; margin-bottom:6px;">
+                            <span style="color:#1D4ED8;"><i class="fas fa-chalkboard"></i> Asignaturas Teóricas: ${teoSubs.length} (${teoCr} cr · ${teoPct}%)</span>
+                            <span style="color:#047857;"><i class="fas fa-tools"></i> Asignaturas Teórico-Prácticas: ${tpSubs.length} (${tpCr} cr · ${tpPct}%)</span>
+                        </div>
+                        <div style="height:10px; width:100%; background:#E2E8F0; border-radius:5px; overflow:hidden; display:flex;">
+                            <div style="width:${teoPct}%; background:#2563EB; height:100%;" title="Teóricas: ${teoPct}%"></div>
+                            <div style="width:${tpPct}%; background:#059669; height:100%;" title="Teórico-Prácticas: ${tpPct}%"></div>
+                        </div>
+                        <div style="font-size:0.72rem; color:#64748B; margin-top:6px;">
+                            * Las asignaturas teórico-prácticas (TP) vinculan el análisis conceptual con la resolución de casos reales, simuladores de gestión de negocios y talleres aplicados en plataforma y presencialidad.
+                        </div>
+                    </div>
+
+                    <!-- TABLA DEL DESAGREGADO -->
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                        <h4 style="font-family:var(--font-heading); font-size:1rem; font-weight:800; color:#1A1A1B; margin:0;">
+                            <i class="fas fa-list-ul" style="color:${areaColor};"></i> Desagregado de Asignaturas del Área (${totalSubs} Asignaturas · ${totalCr} Créditos)
+                        </h4>
+                        <span style="font-size:0.74rem; color:#64748B;">Haz clic en cualquier asignatura para abrir su ficha completa</span>
+                    </div>
+
+                    <div style="overflow-x:auto;">
+                        <table style="width:100%; border-collapse:collapse; font-size:0.78rem; text-align:left;">
+                            <thead>
+                                <tr style="background:#F8FAFC; border-bottom:2px solid #E2E8F0;">
+                                    <th style="padding:8px 10px; width:60px; text-align:center;">Sem</th>
+                                    <th style="padding:8px 10px;">Asignatura</th>
+                                    <th style="padding:8px 10px; width:160px; text-align:center;">Carácter (T / TP)</th>
+                                    <th style="padding:8px 10px; width:80px; text-align:center;">Créditos</th>
+                                    <th style="padding:8px 10px; width:140px; text-align:center;">Presencial (1:2)</th>
+                                    <th style="padding:8px 10px; width:140px; text-align:center;">Virtual (1:3)</th>
+                                    <th style="padding:8px 10px; width:150px;">Prerrequisito</th>
+                                    <th style="padding:8px 10px; width:90px; text-align:center;">Acción</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${rowsHtml}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- FOOTER FIJO -->
+                <div style="padding:14px 24px; background:#F8FAFC; border-top:1px solid #E2E8F0; display:flex; justify-content:space-between; align-items:center;">
+                    <span style="font-size:0.75rem; color:#64748B;">
+                        <i class="fas fa-shield-alt" style="color:#059669;"></i> Información oficial verificada con los Documentos Maestros [Acuerdo CS 03/2026]
+                    </span>
+                    <button onclick="closeAreaModal()" style="background:#1A1A1B; color:#fff; border:none; padding:8px 22px; border-radius:6px; font-weight:700; cursor:pointer;">
+                        Cerrar Desagregado
+                    </button>
+                </div>
+            </div>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', modalHtml);
+};
+
+window.closeAreaModal = function(e) {
+    if (e && e.target && e.target.id !== 'c3AreaModalOverlay' && !e.target.closest('button')) return;
+    const modal = document.getElementById('c3AreaModalOverlay');
+    if (modal) modal.remove();
+};
+
+// =========================================================
 // VENTANA EMERGENTE: FICHA MICROCURRICULAR FORENSE
-// (ESTRUCTURA OFICIAL DE SYLLABUS FORENSE)
 // =========================================================
 window.openSubjectModal = function(id, type) {
     const s = (window.C3_SUBJECTS || []).find(item => item.id === id);
@@ -667,7 +884,7 @@ window.openSubjectModal = function(id, type) {
     }
 
     const modalHtml = `
-        <div id="c3SubjectModalOverlay" class="subject-modal-overlay" onclick="closeSubjectModal(event)" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(15,23,42,0.75); backdrop-filter:blur(6px); z-index:100000; display:flex; align-items:center; justify-content:center; padding:16px; box-sizing:border-box;">
+        <div id="c3SubjectModalOverlay" class="subject-modal-overlay" onclick="closeSubjectModal(event)" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(15,23,42,0.75); backdrop-filter:blur(6px); z-index:100005; display:flex; align-items:center; justify-content:center; padding:16px; box-sizing:border-box;">
             <div class="subject-modal-container" onclick="event.stopPropagation()" style="background:#fff; border-radius:12px; width:100%; max-width:920px; max-height:92vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.35); border-top:6px solid var(--orange, #F39200); overflow:hidden;">
                 
                 <!-- HEADER FIJO -->
@@ -812,6 +1029,12 @@ window.selectMatrixSubject = function(id, type) {
 
 window.openMktSubjectModal = window.openSubjectModal;
 
+window.c3Init = function() {
+    if (typeof window.renderMktMallaGrid === 'function') {
+        window.renderMktMallaGrid();
+    }
+};
+
 // Inicialización automática al cargar sección C3
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
@@ -820,9 +1043,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, 200);
 });
-
-window.c3Init = function() {
-    if (typeof window.renderMktMallaGrid === 'function') {
-        window.renderMktMallaGrid();
-    }
-};
