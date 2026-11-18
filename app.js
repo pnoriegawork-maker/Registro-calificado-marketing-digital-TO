@@ -315,3 +315,28 @@ window.switchTab = function(tabGroupId, tabId) {
     targetPanel.classList.add('active');
     targetPanel.style.display = 'block';
 };
+
+// Sub-pills switching utility (Benchmark TO)
+window.switchSubSection = function(prefix, secId) {
+    const pillsContainer = document.getElementById(prefix + '-pills');
+    if (pillsContainer) {
+        pillsContainer.querySelectorAll('.pill-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-sub') === `${prefix}-${secId}`);
+        });
+    }
+    const container = document.getElementById(prefix + '-container');
+    if (container) {
+        Array.from(container.children).forEach(panel => {
+            if (panel.id === `${prefix}-${secId}`) {
+                panel.style.display = 'block';
+                panel.classList.add('active');
+            } else if (panel.classList && panel.classList.contains('sub-panel')) {
+                panel.style.display = 'none';
+                panel.classList.remove('active');
+            }
+        });
+    }
+    if (secId === 'malla' && typeof window.renderMktMallaGrid === 'function') {
+        setTimeout(window.renderMktMallaGrid, 50);
+    }
+};
