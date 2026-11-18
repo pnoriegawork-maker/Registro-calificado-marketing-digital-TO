@@ -4,7 +4,6 @@
    ========================================================= */
 
 const PWD_HASH = "TO2026";
-const AUTH_STORAGE_KEY = "to_marketing_digital_auth_2026";
 
 // ---- Conditions Info ----
 const condInfo = [
@@ -100,59 +99,64 @@ const condInfo = [
     }
 ];
 
-// ---- Auth Functions with LocalStorage & SessionStorage Persistence ----
-function unlockPlatform(immediate = false) {
-    const gw = document.getElementById('authGateway');
-    const app = document.getElementById('mainApp');
-    if (!gw || !app) return;
-    if (immediate) {
-        gw.style.display = 'none';
-        gw.style.opacity = '0';
-        app.classList.remove('hidden');
-    } else {
-        gw.style.opacity = '0';
-        setTimeout(() => {
-            gw.style.display = 'none';
-            app.classList.remove('hidden');
-        }, 400);
-    }
-}
+// Limpieza proactiva de cualquier persistencia previa para garantizar que siempre se solicite la contraseña
+try {
+    localStorage.removeItem("to_marketing_digital_auth_2026");
+    sessionStorage.removeItem("to_marketing_digital_auth_2026");
+} catch(e) {}
 
+// ---- Auth Functions (Idéntico a Administración de Empresas) ----
 function checkAuth() {
-    const pwd = document.getElementById('pwdInput').value.trim().toUpperCase();
+    const input = document.getElementById('pwdInput');
+    const pwd = (input ? input.value : '').trim().toUpperCase();
     const err = document.getElementById('pwdError');
     if (pwd === PWD_HASH || pwd === "TO") {
-        try {
-            localStorage.setItem(AUTH_STORAGE_KEY, PWD_HASH);
-            sessionStorage.setItem(AUTH_STORAGE_KEY, PWD_HASH);
-        } catch (e) {}
-        unlockPlatform(false);
+        const gw = document.getElementById('authGateway');
+        if (gw) {
+            gw.style.opacity = '0';
+            setTimeout(() => {
+                gw.style.display = 'none';
+                const main = document.getElementById('mainApp');
+                if (main) main.classList.remove('hidden');
+            }, 500);
+        }
     } else {
-        err.classList.remove('hidden');
-        setTimeout(() => err.classList.add('hidden'), 4000);
+        if (err) {
+            err.classList.remove('hidden');
+            setTimeout(() => err.classList.add('hidden'), 4000);
+        }
     }
 }
 
 function logout() {
-    try {
-        localStorage.removeItem(AUTH_STORAGE_KEY);
-        sessionStorage.removeItem(AUTH_STORAGE_KEY);
-    } catch (e) {}
-    document.getElementById('pwdInput').value = '';
-    document.getElementById('mainApp').classList.add('hidden');
+    const input = document.getElementById('pwdInput');
+    if (input) input.value = '';
+    const main = document.getElementById('mainApp');
+    if (main) main.classList.add('hidden');
     const gw = document.getElementById('authGateway');
-    gw.style.display = 'flex';
-    gw.style.opacity = '1';
+    if (gw) {
+        gw.style.display = 'flex';
+        gw.style.opacity = '1';
+    }
 }
 
-// ---- Build Condition Cards & Restore Auth Session ----
+// ---- Build Condition Cards ----
 document.addEventListener("DOMContentLoaded", () => {
-    try {
-        const saved = localStorage.getItem(AUTH_STORAGE_KEY) || sessionStorage.getItem(AUTH_STORAGE_KEY);
-        if (saved === PWD_HASH) {
-            unlockPlatform(true);
-        }
-    } catch (e) {}
+    // Asegurar compuerta de seguridad visible al inicio
+    const gw = document.getElementById('authGateway');
+    const main = document.getElementById('mainApp');
+    if (gw) {
+        gw.style.display = 'flex';
+        gw.style.opacity = '1';
+    }
+    if (main) {
+        main.classList.add('hidden');
+    }
+    const pwdInput = document.getElementById('pwdInput');
+    if (pwdInput) {
+        pwdInput.value = '';
+        setTimeout(() => pwdInput.focus(), 250);
+    }
 
     const grid = document.getElementById('gridCards');
     if (!grid) return;
