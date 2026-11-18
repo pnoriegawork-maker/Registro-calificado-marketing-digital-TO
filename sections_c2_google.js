@@ -927,14 +927,26 @@ window.initMktLeafletMap = function() {
     const container = document.getElementById('mktLeafletMap');
     if (!container || typeof L === 'undefined') return;
     if (window._leafletMapInstance) {
-        window._leafletMapInstance.invalidateSize();
-        return;
+        try {
+            window._leafletMapInstance.invalidateSize();
+            return;
+        } catch(e) {
+            try { window._leafletMapInstance.remove(); } catch(ex) {}
+            window._leafletMapInstance = null;
+        }
     }
-    const map = L.map('mktLeafletMap').setView([6.4, -73.8], 6);
+    if (container._leaflet_id) {
+        try {
+            container._leaflet_id = null;
+        } catch(e) {}
+    }
+    const map = L.map('mktLeafletMap', { scrollWheelZoom: false }).setView([6.4, -73.8], 6);
     window._leafletMapInstance = map;
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; OpenStreetMap &copy; CARTO · SNIES Marketing Digital TO'
+    L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+        maxZoom: 20,
+        subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+        attribution: '&copy; Google Maps &copy; SNIES - MEN · Marketing Digital TO'
     }).addTo(map);
 
     const cities = [
@@ -1029,6 +1041,5 @@ window.initMktC2Charts = function() {
 };
 
 window.c2Init = function() {
-    window._leafletMapInstance = null;
     window.showC2Section('c2-eje-1');
 };
