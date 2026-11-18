@@ -777,260 +777,881 @@ window.SECTIONS['c3'] = `
          TAB B: COMPONENTES PEDAGÓGICOS (LITERAL B)
          ========================================================= -->
     <div class="tab-panel" id="c3-pedagogicos" style="display:none;">
-        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
-            <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
-                <i class="fas fa-brain"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal b)
-            </span>
-            <h3 style="font-family:var(--font-heading); font-size:1.22rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
-                b) Componentes Pedagógicos · Lineamientos e Innovación según Modalidad
-            </h3>
-            <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:880px; line-height:1.5;">
-                <strong>Lineamientos e innovación pedagógica y didáctica:</strong> Estrategias didácticas integradas al programa en coherencia con las modalidades presencial y virtual, fundamentadas en el modelo socioformativo institucional, el aprendizaje basado en proyectos (ABP), el análisis de casos reales de MarTech y la mediación tecnológica avanzada.
+        <!-- BANNER DE ENCABEZADO NORMATIVO ART. 2.5.3.2.3.2.4 LITERAL B -->
+        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:22px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                <div>
+                    <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
+                        <i class="fas fa-brain"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal b)
+                    </span>
+                    <h3 style="font-family:var(--font-heading); font-size:1.25rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
+                        b) Componentes Pedagógicos · Lineamientos e Innovación según Modalidad (Registro Calificado Nuevo (144 Créditos - 8 Semestres))
+                    </h3>
+                    <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:850px; line-height:1.5;">
+                        <strong>Lineamientos e innovación pedagógica y didáctica:</strong> Estrategias didácticas integradas al programa en coherencia con las modalidades presencial y virtual, fundamentadas en el modelo socioformativo, la taxonomía institucional y el aprendizaje activo centrado en el estudiante.
+                    </p>
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <span class="badge-presencial" style="background:#F39200; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-lightbulb"></i> Modelo Actualizado 2021
+                    </span>
+                    <span class="badge-presencial" style="background:#059669; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-sync-alt"></i> Tríada Saber-Ser-Hacer
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 1. MODELO PEDAGÓGICO INSTITUCIONAL Y REFERENTES -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #F39200;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:8px;">
+                <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0;">
+                    <i class="fas fa-university" style="color:var(--orange); margin-right:8px;"></i> 1. Modelo Pedagógico "Formación en Contextos de Aplicación"
+                </h4>
+                <span style="font-size:0.75rem; color:#D97706; background:#FEF3C7; padding:3px 10px; border-radius:6px; font-weight:700;">
+                    PEI Institucional · Lema: "Aprender a convertirse"
+                </span>
+            </div>
+            <p style="font-size:0.85rem; color:#334155; line-height:1.65; margin-bottom:16px;">
+                La Corporación Escuela Tecnológica del Oriente fundamenta su modelo pedagógico en el <strong>Constructivismo Social</strong> (Vygotsky, Piaget), la <strong>Escuela Nueva</strong> (Dewey, Freinet) y el <strong>Aprendizaje Significativo</strong> (Ausubel). Su propósito rector es empoderar al estudiante en su capacidad de autotransformación y en la transformación de su entorno organizacional mediante la construcción colectiva y colaborativa del conocimiento gerencial.
             </p>
-        </div>
 
-        <!-- 3 EJES DEL COMPONENTE PEDAGÓGICO -->
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-bottom:24px;">
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #F39200; border-radius:10px; padding:18px;">
-                <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
-                    <i class="fas fa-user-graduate" style="color:#F39200;"></i> Modelo Socioformativo Institucional
-                </h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin-bottom:10px;">
-                    Centrado en el desarrollo de competencias para resolver problemas reales del contexto empresarial y territorial, articulando el saber conocer, el saber hacer y el saber ser con sentido ético y sostenibilidad.
-                </p>
-                <div style="background:#F8F9FA; padding:10px; border-radius:6px; font-size:0.75rem; color:#374151;">
-                    <strong>Niveles de Desempeño:</strong> Receptivo $\rightarrow$ Resolutivo $\rightarrow$ Autónomo $\rightarrow$ Estratégico.
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:14px;">
+                <!-- Bloom -->
+                <div style="background:#FFF7ED; border:1px solid #FFEDD5; border-left:4px solid #F97316; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#C2410C; margin-bottom:6px;">
+                        <i class="fas fa-layer-group"></i> Benjamin Bloom (Taxonomía)
+                    </div>
+                    <p style="font-size:0.78rem; color:#431407; line-height:1.55; margin:0;">
+                        Adopción institucional de la taxonomía cognitiva de 6 niveles: <em>Recordar &rarr; Comprender &rarr; Aplicar &rarr; Analizar &rarr; Evaluar &rarr; Crear</em>, aplicada a la progresión del plan de estudios.
+                    </p>
                 </div>
-            </div>
-
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1E40AF; border-radius:10px; padding:18px;">
-                <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
-                    <i class="fas fa-project-diagram" style="color:#1E40AF;"></i> Estrategias Didácticas Activas
-                </h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin-bottom:10px;">
-                    Aprendizaje Basado en Proyectos (ABP), Estudio de Casos Reales (marcas colombianas e internacionales), Talleres de Experimentación y Simulación en E-commerce y Pauta Digital.
-                </p>
-                <div style="background:#F8F9FA; padding:10px; border-radius:6px; font-size:0.75rem; color:#374151;">
-                    <strong>Plataformas Integradas:</strong> Google Analytics 4, Meta Business Suite, HubSpot CRM, Python y Looker Studio.
+                <!-- Tobón -->
+                <div style="background:#F0FDF4; border:1px solid #DCFCE7; border-left:4px solid #16A34A; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#15803D; margin-bottom:6px;">
+                        <i class="fas fa-users-cog"></i> Sergio Tobón (Socioformativo)
+                    </div>
+                    <p style="font-size:0.78rem; color:#14532D; line-height:1.55; margin:0;">
+                        Enfoque de competencias complejas orientadas a la solución de problemas del contexto, el proyecto ético de vida y el trabajo colaborativo en escenarios reales.
+                    </p>
                 </div>
-            </div>
-
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #16A34A; border-radius:10px; padding:18px;">
-                <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
-                    <i class="fas fa-laptop-code" style="color:#16A34A;"></i> Mediación por Modalidad
-                </h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin-bottom:10px;">
-                    <strong>Presencial (1:2):</strong> 48h de interacción directa en laboratorios informáticos con retroalimentación sincrónica in situ.<br>
-                    <strong>Virtual (1:3):</strong> 36h mediadas en Moodle 4.5.5 con tutoría especializada, foros asincrónicos y módulos interactivos.
-                </p>
-                <div style="background:#F8F9FA; padding:10px; border-radius:6px; font-size:0.75rem; color:#374151;">
-                    <strong>Aulas Extendidas:</strong> Plataforma TecnoMod para soporte 24/7 y seguimiento analítico de permanencia (SAT).
+                <!-- Tríada -->
+                <div style="background:#FAF5FF; border:1px solid #F3E8FF; border-left:4px solid #9333EA; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#7E22CE; margin-bottom:6px;">
+                        <i class="fas fa-cubes"></i> Activación de la Tríada
+                    </div>
+                    <p style="font-size:0.78rem; color:#581C87; line-height:1.55; margin:0;">
+                        Activación sistemática de <strong>Saber</strong> (cognitivo), <strong>Ser</strong> (actitudinal/ético) y <strong>Hacer</strong> (procedimental) ante situaciones problémicas de las organizaciones.
+                    </p>
                 </div>
             </div>
         </div>
 
-        <!-- MATRIZ DE COMPETENCIAS Y RAPS -->
-        <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-radius:10px; padding:18px;">
-            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:12px;">
-                <i class="fas fa-award" style="color:#F39200; margin-right:6px;"></i> Matriz Institucional: 8 Competencias del Perfil y 26 RAPs Oficiales (Tablas 34–38 DM)
+        <!-- 2. LINEAMIENTOS POR MODALIDAD: PRESENCIAL Y VIRTUAL -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #0284C7;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-chalkboard-teacher" style="color:#0284C7; margin-right:8px;"></i> 2. Innovación Pedagógica y Didáctica según Modalidad (Presencial & Virtual)
             </h4>
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:12px;">
-                <div style="background:#F8F9FA; border-left:3px solid #1E40AF; padding:12px; border-radius:6px;">
-                    <strong style="color:#1E40AF; font-size:0.78rem;">Competencia 1 · Inteligencia de Mercados (RAP 1–3):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Comprende las dinámicas del consumidor digital, modelos de atribución y analítica predictiva de mercado.</div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <!-- Presencial -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #F39200; border-radius:8px; padding:16px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                        <h5 style="font-family:var(--font-heading); font-size:0.9rem; font-weight:800; color:#1E293B; margin:0;">
+                            <i class="fas fa-chalkboard" style="color:#F39200;"></i> Modalidad Presencial (Bucaramanga)
+                        </h5>
+                        <span style="font-size:0.7rem; color:#F39200; background:#FFF7ED; padding:2px 8px; border-radius:4px; font-weight:700;">Relación 1:2 (16h directas / 32h indep)</span>
+                    </div>
+                    <ul style="font-size:0.78rem; color:#475569; line-height:1.6; padding-left:18px; margin:0;">
+                        <li><strong>Interacción Directa en Aula:</strong> Clases participativas, debates gerenciales y talleres de aplicación inmediata en campus.</li>
+                        <li><strong>Trabajo en Laboratorios de Gestión:</strong> Uso de herramientas informáticas empresariales y análisis financiero en salas de cómputo especializadas.</li>
+                        <li><strong>Seminarios de Discusión:</strong> Talleres de casos empresariales y asesoría metodológica cara a cara con docentes tutores.</li>
+                        <li><strong>Acompañamiento Docente Continuo:</strong> Monitoreo presencial del desarrollo de proyectos de aula y preparación para Saber Pro.</li>
+                    </ul>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #F39200; padding:12px; border-radius:6px;">
-                    <strong style="color:#C2410C; font-size:0.78rem;">Competencia 2 · Creatividad y Contenidos (RAP 4–7):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Diseña estrategias de contenido multimedia, arquitectura UX/UI y branding digital multiplataforma.</div>
+                <!-- Virtual -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #0284C7; border-radius:8px; padding:16px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                        <h5 style="font-family:var(--font-heading); font-size:0.9rem; font-weight:800; color:#1E293B; margin:0;">
+                            <i class="fas fa-laptop" style="color:#0284C7;"></i> Modalidad Virtual (Cobertura Nacional)
+                        </h5>
+                        <span style="font-size:0.7rem; color:#0284C7; background:#F0F9FF; padding:2px 8px; border-radius:4px; font-weight:700;">Relación 1:3 (12h mediadas / 36h indep)</span>
+                    </div>
+                    <ul style="font-size:0.78rem; color:#475569; line-height:1.6; padding-left:18px; margin:0;">
+                        <li><strong>Ecosistema Digital TO (LMS Moodle):</strong> Aulas estructuradas tecnopedagógicamente con guías de aprendizaje y recursos hipermediales 24/7.</li>
+                        <li><strong>Espacios Sincrónicos Dialógicos:</strong> Sesiones semanales de encuentro en vivo para resolución de dudas, asesoría de casos y debate, no para cátedra pasiva.</li>
+                        <li><strong>Espacios Asincrónicos de Interacción:</strong> Foros temáticos estructurados con retroalimentación cualitativa y rúbricas de debate.</li>
+                        <li><strong>Aprendizaje Autónomo y Adaptativo:</strong> Diseño instruccional que promueve la autorregulación cognitiva, el microlearning y el ritmo individual.</li>
+                    </ul>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #16A34A; padding:12px; border-radius:6px;">
-                    <strong style="color:#166534; font-size:0.78rem;">Competencia 3 · Ecosistemas y MarTech (RAP 8–10):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Implementa arquitecturas tecnológicas de marketing, automatización, CRM y flujos omnicanal.</div>
+            </div>
+        </div>
+
+        <!-- 3. METODOLOGÍAS ACTIVAS Y LOS 6 LINEAMIENTOS DEL PEI -->
+        <div class="card" style="margin-bottom:20px; border-top:4px solid #16A34A;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-tools" style="color:#16A34A; margin-right:8px;"></i> 3. Metodologías Activas y los 6 Lineamientos Institucionales de Innovación Didáctica (PEI)
+            </h4>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#C2410C; margin-bottom:4px;">
+                        <i class="fas fa-user-check"></i> 1. Enfoque centrado en el estudiante:
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        Aprendizaje Basado en Problemas (ABP), Método del Caso y Aprendizaje Basado en Proyectos.
+                    </p>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #7C3AED; padding:12px; border-radius:6px;">
-                    <strong style="color:#6D28D9; font-size:0.78rem;">Competencia 4 · Analítica y Big Data (RAP 11–14):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Interpreta grandes volúmenes de datos para optimizar presupuestos, pauta publicitaria y retorno de inversión (ROI).</div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#0284C7; margin-bottom:4px;">
+                        <i class="fas fa-microchip"></i> 2. Integración tecnológica:
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        Campus Digital, entornos virtuales interactivos, analítica de aprendizaje y herramientas colaborativas.
+                    </p>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #0891B2; padding:12px; border-radius:6px;">
-                    <strong style="color:#0E7490; font-size:0.78rem;">Competencia 5 · E-commerce y Negocios (RAP 15–17):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Diseña y gestiona tiendas virtuales, pasarelas de pago, modelos B2B/B2C y logística digital.</div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#16A34A; margin-bottom:4px;">
+                        <i class="fas fa-puzzle-piece"></i> 3. Currículo contextualizado:
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        Diseñado para responder a los cambios dinámicos del mercado laboral y las tendencias de sostenibilidad.
+                    </p>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #EA580C; padding:12px; border-radius:6px;">
-                    <strong style="color:#C2410C; font-size:0.78rem;">Competencia 6 · Estrategia y Dirección (RAP 18–20):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Formula planes estratégicos de mercadeo digital y lidera equipos interdisciplinarios con mentalidad ágil.</div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#DC2626; margin-bottom:4px;">
+                        <i class="fas fa-heart"></i> 4. Competencias socioemocionales:
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        Liderazgo ético, resiliencia, comunicación asertiva y toma de decisiones bajo incertidumbre.
+                    </p>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #DC2626; padding:12px; border-radius:6px;">
-                    <strong style="color:#B91C1C; font-size:0.78rem;">Competencia 7 · Ética y Ciberseguridad (RAP 21–23):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Aplica la Ley 1581 de 2012 de protección de datos, ciberseguridad y principios de inclusión digital.</div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#7C3AED; margin-bottom:4px;">
+                        <i class="fas fa-universal-access"></i> 5. Inclusión y equidad:
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        Accesibilidad universal, respeto por la diversidad y democratización de la educación profesional.
+                    </p>
                 </div>
-                <div style="background:#F8F9FA; border-left:3px solid #059669; padding:12px; border-radius:6px;">
-                    <strong style="color:#047857; font-size:0.78rem;">Competencia 8 · Innovación y Prospección (RAP 24–26):</strong>
-                    <div style="font-size:0.74rem; color:#4B5563; margin-top:4px;">Formula proyectos de investigación e innovación aplicando IA generativa y tecnologías emergentes.</div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#D97706; margin-bottom:4px;">
+                        <i class="fas fa-check-double"></i> 6. Evaluación formativa e innovadora:
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        Rúbricas analíticas, portafolios digitales, proyectos integradores y retroalimentación oportuna.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- =========================================================
+<!-- =========================================================
          TAB C: COMPONENTES DE INTERACCIÓN (LITERAL C)
          ========================================================= -->
     <div class="tab-panel" id="c3-interaccion" style="display:none;">
-        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
-            <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
-                <i class="fas fa-handshake"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal c)
-            </span>
-            <h3 style="font-family:var(--font-heading); font-size:1.22rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
-                c) Componentes de Interacción · Contextos, Internacionalización y Segunda Lengua
-            </h3>
-            <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:880px; line-height:1.5;">
-                <strong>Creación y fortalecimiento de vínculos:</strong> Armonización del programa con los contextos locales, regionales y globales; desarrollo de habilidades de interrelación estudiante-profesor y entre pares; condiciones de internacionalización, convenios académicos y política curricularizada de segunda lengua.
-            </p>
+        <!-- BANNER DE ENCABEZADO NORMATIVO ART. 2.5.3.2.3.2.4 LITERAL C -->
+        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:22px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                <div>
+                    <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
+                        <i class="fas fa-handshake"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal c)
+                    </span>
+                    <h3 style="font-family:var(--font-heading); font-size:1.25rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
+                        c) Componentes de Interacción · Contextos, Internacionalización y Segunda Lengua (Registro Calificado Nuevo (144 Créditos - 8 Semestres))
+                    </h3>
+                    <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:850px; line-height:1.5;">
+                        <strong>Creación y fortalecimiento de vínculos:</strong> Armonización del programa con los contextos locales, regionales y globales; desarrollo de habilidades de interrelación estudiante-profesor y entre pares; condiciones de internacionalización del currículo y formación en segunda lengua.
+                    </p>
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <span class="badge-presencial" style="background:#059669; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-globe-americas"></i> Alianza UIDE (Ecuador)
+                    </span>
+                    <span class="badge-presencial" style="background:#0284C7; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-language"></i> Inglés B1 Curricularizado (9 cr)
+                    </span>
+                </div>
+            </div>
         </div>
 
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-bottom:24px;">
-            <!-- INTERNACIONALIZACIÓN -->
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1E40AF; border-radius:10px; padding:18px;">
-                <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
-                    <i class="fas fa-globe-americas" style="color:#1E40AF;"></i> Internacionalización y Alianza UIDE
+        <!-- =========================================================
+             BLOQUE MAESTRO DE EDUCACIÓN VIRTUAL (ACUERDO INSTITUCIONAL)
+             ========================================================= -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #059669; background:#FAFDFB;">
+            <div style="border-bottom:1px solid #E2E8F0; padding-bottom:14px; margin-bottom:16px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                    <span style="font-size:0.72rem; text-transform:uppercase; font-weight:800; color:#059669; letter-spacing:0.5px;">
+                        Lineamiento de Educación Virtual · Acuerdo Institucional
+                    </span>
+                    <span style="font-size:0.72rem; color:#64748B;">
+                        <i class="fas fa-check-circle" style="color:#059669;"></i> Anexos 1, 2 y 3 Oficiales
+                    </span>
+                </div>
+                <h4 style="font-family:var(--font-heading); font-size:1.1rem; font-weight:800; color:#064E3B; margin:4px 0 8px 0;">
+                    <i class="fas fa-network-wired" style="color:#059669; margin-right:8px;"></i> Modelo de Interacción Pedagógica, Estrategias Didácticas y Gestión en Plataforma LMS
                 </h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin-bottom:10px;">
-                    Alianza estratégica con la <strong>Universidad Internacional del Ecuador (UIDE)</strong> (Tabla 39 DM) para movilidad estudiantil, clases espejo y proyectos de aprendizaje internacional colaborativo en línea (COIL).
+                <p style="font-size:0.83rem; color:#334155; line-height:1.6; margin:0;">
+                    En coherencia con el modelo pedagógico socioformativo institucional y la relación <strong>1:3 de créditos académicos</strong> en modalidad virtual (12h de mediación docente y 36h de trabajo autónomo e independiente), la institución despliega una interacción activa y multidimensional soportada en 4 dimensiones estratégicas y 8 actividades formativas integradas en el Syllabus de cada asignatura:
                 </p>
-                <div style="background:#EFF6FF; border:1px solid #BFDBFE; padding:10px; border-radius:6px; font-size:0.75rem; color:#1E40AF;">
-                    <strong>Estrategias COIL:</strong> Módulos interculturales compartidos en Marketing Global y Tendencias Digitales.
+            </div>
+
+            <!-- 1. LAS 4 DIMENSIONES DE LA EDUCACIÓN VIRTUAL -->
+            <div style="margin-bottom:18px;">
+                <div style="font-size:0.8rem; font-weight:800; color:#1E293B; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:10px;">
+                    <i class="fas fa-sitemap" style="color:#F39200;"></i> Cuatro Dimensiones del Lineamiento de Educación Virtual (Anexo 2):
+                </div>
+                <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:10px;">
+                    <div style="background:#FFF; border:1px solid #CBD5E1; border-top:3px solid #0284C7; border-radius:6px; padding:12px;">
+                        <div style="font-weight:800; font-size:0.78rem; color:#0369A1; margin-bottom:4px;">
+                            <i class="fas fa-user-graduate"></i> 1. Dimensión Pedagógica
+                        </div>
+                        <p style="font-size:0.72rem; color:#475569; line-height:1.45; margin:0;">
+                            Aprendizaje activo, formación en contextos reales de aplicación, desarrollo de competencias prácticas y reflexivas, autonomía y autorregulación del estudiante.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #CBD5E1; border-top:3px solid #059669; border-radius:6px; padding:12px;">
+                        <div style="font-weight:800; font-size:0.78rem; color:#047857; margin-bottom:4px;">
+                            <i class="fas fa-comments"></i> 2. Dimensión Comunicativa
+                        </div>
+                        <p style="font-size:0.72rem; color:#475569; line-height:1.45; margin:0;">
+                            Acompañamiento continuo sincrónico y asincrónico, foros de debate guiados, tutorías de refuerzo y canales dialógicos multidireccionales docente-estudiante y entre pares.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #CBD5E1; border-top:3px solid #7C3AED; border-radius:6px; padding:12px;">
+                        <div style="font-weight:800; font-size:0.78rem; color:#6D28D9; margin-bottom:4px;">
+                            <i class="fas fa-server"></i> 3. Dimensión Tecnológica
+                        </div>
+                        <p style="font-size:0.72rem; color:#475569; line-height:1.45; margin:0;">
+                            Campus Virtual LMS Moodle sobre arquitectura en la nube AWS elástica (disponibilidad 99.9%), Teams/Meet para sesiones en vivo y motor de originalidad académica.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #CBD5E1; border-top:3px solid #D97706; border-radius:6px; padding:12px;">
+                        <div style="font-weight:800; font-size:0.78rem; color:#B45309; margin-bottom:4px;">
+                            <i class="fas fa-cogs"></i> 4. Dimensión Organizacional
+                        </div>
+                        <p style="font-size:0.72rem; color:#475569; line-height:1.45; margin:0;">
+                            Mesa de ayuda TI con Matriz de Tiempos de Respuesta a Requerimientos, gobernanza académica, aseguramiento de permanencia y gestión curricular ágil.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <!-- SEGUNDA LENGUA B1 -->
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #F39200; border-radius:10px; padding:18px;">
-                <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
-                    <i class="fas fa-language" style="color:#F39200;"></i> Segunda Lengua Curricularizada (B1 MCER)
-                </h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin-bottom:10px;">
-                    Nivel B1 garantizado dentro del plan de estudios oficial mediante <strong>Inglés I, II y III (9 créditos académicos obligatorios)</strong> en Semestres II, III y IV (Acuerdo CS No. 015 de 2024).
-                </p>
-                <div style="background:#FFF7ED; border:1px solid #FED7AA; padding:10px; border-radius:6px; font-size:0.75rem; color:#C2410C;">
-                    <strong>Plataforma Cambridge One:</strong> Licenciamiento digital y certificación de competencias comunicativas en marketing.
+            <!-- 2. LAS 8 ESTRATEGIAS PEDAGÓGICAS Y DIDÁCTICAS ACTIVAS -->
+            <div style="margin-bottom:18px;">
+                <div style="font-size:0.8rem; font-weight:800; color:#1E293B; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:10px;">
+                    <i class="fas fa-chalkboard-teacher" style="color:#059669;"></i> Ocho Estrategias Didácticas de Interacción en el Syllabus de Cada Asignatura:
+                </div>
+                <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:10px;">
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#0284C7; margin-bottom:3px;">
+                            <i class="fas fa-video"></i> 1. Clases Sincrónicas
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Sesiones en vivo programadas en Moodle (Teams/Meet), participativas, grabadas y de consulta 24/7 permanente.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#D97706; margin-bottom:3px;">
+                            <i class="fas fa-photo-video"></i> 2. Recursos Asincrónicos (RED)
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Videos explicativos, lecturas, infografías, podcasts, bases de datos y bancos de preguntas de navegación autónoma.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#059669; margin-bottom:3px;">
+                            <i class="fas fa-comments"></i> 3. Foros de Debate
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Análisis de casos prácticos a partir de preguntas orientadoras con argumentación y retroalimentación entre pares.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#7C3AED; margin-bottom:3px;">
+                            <i class="fas fa-headset"></i> 4. Mesa de Ayuda TI
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Soporte técnico y administrativo oportuno regido por la Matriz de Tiempos de Respuesta Institucional.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#DC2626; margin-bottom:3px;">
+                            <i class="fas fa-tasks"></i> 5. Aprendizaje Activo
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Actividades cooperativas y colaborativas centradas en la resolución de problemas reales para alcanzar los RAPs.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#059669; margin-bottom:3px;">
+                            <i class="fas fa-clipboard-check"></i> 6. Evaluación Formativa
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Pruebas diagnósticas, cuestionarios interactivos, autoevaluación por unidad y rúbricas de evaluación significativa.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#0284C7; margin-bottom:3px;">
+                            <i class="fas fa-users"></i> 7. Trabajo Colaborativo
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Dinámicas grupales mediadas por herramientas digitales para potenciar negociación y resolución de conflictos.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:6px; padding:10px;">
+                        <div style="font-weight:700; font-size:0.76rem; color:#B45309; margin-bottom:3px;">
+                            <i class="fas fa-user-clock"></i> 8. Tutorías Virtuales
+                        </div>
+                        <p style="font-size:0.7rem; color:#64748B; line-height:1.4; margin:0;">
+                            Sesiones de atención individual y grupal agendadas directamente por el docente en Moodle para refuerzo continuo.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <!-- RELACIÓN CON SECTOR EXTERNO -->
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #16A34A; border-radius:10px; padding:18px;">
-                <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin-top:0; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
-                    <i class="fas fa-briefcase" style="color:#16A34A;"></i> Vínculo con el Sector Externo y Prácticas
-                </h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin-bottom:10px;">
-                    Articulación con el <strong>Comité Universidad-Empresa-Estado-Sociedad (CUEES Santander)</strong>, Cámara de Comercio de Bucaramanga (CCB) y Cámara Colombiana de Comercio Electrónico (CCCE).
+            <!-- 3. ESTRUCTURA ESTÁNDAR Y GESTIÓN DOCENTE -->
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:12px;">
+                <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:6px; padding:12px;">
+                    <div style="font-size:0.76rem; font-weight:800; color:#1E40AF; margin-bottom:6px;">
+                        <i class="fas fa-cube"></i> Estructura Estándar de las Aulas Virtuales en Moodle (5 Ejes):
+                    </div>
+                    <ul style="font-size:0.72rem; color:#1E3A8A; line-height:1.55; padding-left:16px; margin:0;">
+                        <li><strong>1. Gestión del Aprendizaje:</strong> Guía de aprendizaje, ruta formativa, syllabus y cronograma.</li>
+                        <li><strong>2. Comunicación y Colaboración:</strong> Foros de dudas, foros temáticos y mensajería directa.</li>
+                        <li><strong>3. Evaluación y Seguimiento:</strong> Entregables con motor de similitud, rúbricas y libro de calificaciones.</li>
+                        <li><strong>4. Recursos y Soporte TI:</strong> Enlaces a biblioteca E-Libro, simuladores y mesa de ayuda.</li>
+                        <li><strong>5. Competencias Digitales:</strong> Guías interactivas y videos instructivos de uso de la plataforma.</li>
+                    </ul>
+                </div>
+                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-radius:6px; padding:12px;">
+                    <div style="font-size:0.76rem; font-weight:800; color:#92400E; margin-bottom:6px;">
+                        <i class="fas fa-user-tie"></i> Distribución Porcentual del Tiempo de Dedicación Docente:
+                    </div>
+                    <p style="font-size:0.72rem; color:#78350F; line-height:1.55; margin:0;">
+                        &bull; <strong>50% Docencia:</strong> 30% Espacios sincrónicos (Teams/Meet) &middot; 5% Tutorías académicas &middot; 5% Foros de debate &middot; 10% Revisión y retroalimentación de entregables.<br>
+                        &bull; <strong>15% Investigación:</strong> Semillero de investigación del programa, Grupo COLLEGIUM y dirección de proyectos.<br>
+                        &bull; <strong>10% Proyección Social:</strong> Seguimiento de prácticas, internacionalización y extensión.<br>
+                        &bull; <strong>10% Gestión y Permanencia:</strong> Preparación de clases, seguimiento a permanencia y cualificación.<br>
+                        &bull; <em>Aplica armónicamente para profesores de Tiempo Completo (TC - 40h) y Medio Tiempo (MT - 22h).</em>
+                    </p>
+                </div>
+            </div>
+
+            <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-radius:6px; padding:8px 12px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
+                <span style="font-size:0.72rem; color:#166534;">
+                    <i class="fas fa-check-circle" style="color:#16A34A;"></i> <strong>Modelo de Producción de Recursos Digitales (Anexo 3):</strong> Criterios de accesibilidad, interactividad, multimedia, adaptabilidad, actualización periódica y articulación curricular.
+                </span>
+                <span style="font-size:0.7rem; color:#15803D; font-weight:700;">Aprobado por Consejo Académico</span>
+            </div>
+        </div>
+
+        <!-- 1. ARTICULACIÓN CON EL SECTOR EXTERNO -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #EA580C;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-city" style="color:#EA580C; margin-right:8px;"></i> 1. Articulación del Programa con Contextos Locales, Regionales y Globales (3.9.1)
+            </h4>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <div>
+                    <h5 style="font-family:var(--font-heading); font-size:0.88rem; font-weight:800; color:#1E293B; margin-bottom:8px;">
+                        <i class="fas fa-handshake" style="color:#EA580C;"></i> Alianzas con el Sector Productivo y Gremios
+                    </h5>
+                    <p style="font-size:0.78rem; color:#475569; line-height:1.6; margin-bottom:10px;">
+                        El programa de Marketing Digital se articula activamente con el tejido empresarial a través del <strong>Comité Universidad-Empresa-Estado-Sociedad (CUEES Santander)</strong>, la <strong>Cámara de Comercio de Bucaramanga</strong>, <strong>FENALCO</strong> y gremios vinculados a la transformación tecnológica y los servicios digitales.
+                    </p>
+                    <div style="background:#FFF7ED; border:1px solid #FFEDD5; border-radius:6px; padding:10px; font-size:0.75rem; color:#9A3412; line-height:1.5;">
+                        <i class="fas fa-bullseye"></i> <strong>Centro CIDRE:</strong> A través del Centro de Innovación, Desarrollo y Responsabilidad Empresarial se gestionan proyectos de consultoría aplicada y analítica digital para mipymes de la región.
+                    </div>
+                </div>
+                <div>
+                    <h5 style="font-family:var(--font-heading); font-size:0.88rem; font-weight:800; color:#1E293B; margin-bottom:8px;">
+                        <i class="fas fa-rocket" style="color:#0284C7;"></i> Ecosistema Emprendedor e Inserción Laboral
+                    </h5>
+                    <p style="font-size:0.78rem; color:#475569; line-height:1.6; margin-bottom:10px;">
+                        Los estudiantes desarrollan iniciativas aplicadas en el marco del <strong>Ecosistema Emprendedor TO</strong>, estructurando planes de mercadeo digital, comercio electrónico y crecimiento para negocios reales en entornos locales y globales.
+                    </p>
+                    <div style="background:#F0F9FF; border:1px solid #E0F2FE; border-radius:6px; padding:10px; font-size:0.75rem; color:#0369A1; line-height:1.5;">
+                        <i class="fas fa-briefcase"></i> <strong>Proyección Profesional:</strong> Formación orientada a roles de alta demanda laboral: Growth Marketer, Content Strategist, Trafficker Digital, Analista de Datos y Consultor MarTech.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. HABILIDADES DE INTERRELACIÓN Y ACOMPAÑAMIENTO -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #0284C7;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-people-arrows" style="color:#0284C7; margin-right:8px;"></i> 2. Habilidades de Interrelación Estudiante-Profesor y Entre Pares (3.9.2)
+            </h4>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:14px;">
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.82rem; color:#0369A1; margin-bottom:6px;">
+                        <i class="fas fa-chalkboard"></i> Interrelación en Modalidad Presencial
+                    </div>
+                    <ul style="font-size:0.75rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                        <li>Tutorías académicas individualizadas en campus.</li>
+                        <li>Talleres prácticos en salas de cómputo especializadas.</li>
+                        <li>Asesorías directas cara a cara para proyectos de grado.</li>
+                        <li>Monitoreo continuo para la permanencia estudiantil.</li>
+                    </ul>
+                </div>
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.82rem; color:#059669; margin-bottom:6px;">
+                        <i class="fas fa-laptop-code"></i> Interrelación en Modalidad Virtual
+                    </div>
+                    <ul style="font-size:0.75rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                        <li>Encuentros sincrónicos interactivos semanales (Teams/Meet).</li>
+                        <li>Foros dialógicos moderados por el docente tutor.</li>
+                        <li>Mensajería instantánea interna en LMS Moodle (SLA &lt;24h).</li>
+                        <li>Protocolo estandarizado de retroalimentación cualitativa.</li>
+                    </ul>
+                </div>
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.82rem; color:#7C3AED; margin-bottom:6px;">
+                        <i class="fas fa-users"></i> Dinámicas Colaborativas Entre Pares
+                    </div>
+                    <ul style="font-size:0.75rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                        <li>Desarrollo de proyectos de marketing en equipos multidisciplinarios.</li>
+                        <li>Evaluación constructiva entre pares (coevaluación).</li>
+                        <li>Debates en foros con argumentación conceptual y técnica.</li>
+                        <li>Resolución colaborativa de retos y simulaciones empresariales.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. INTERNACIONALIZACIÓN Y SEGUNDA LENGUA -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px;">
+            <!-- Internacionalización -->
+            <div class="card" style="border-top:4px solid #16A34A;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:800; color:var(--dark); margin:0;">
+                        <i class="fas fa-globe-americas" style="color:#16A34A; margin-right:6px;"></i> 3. Internacionalización del Currículo (3.9.2)
+                    </h4>
+                    <span style="font-size:0.7rem; color:#166534; background:#DCFCE7; padding:2px 8px; border-radius:4px; font-weight:700;">Tabla 39 Oficial DM</span>
+                </div>
+                <p style="font-size:0.78rem; color:#475569; line-height:1.6; margin-bottom:12px;">
+                    El programa cuenta con un plan de internacionalización activo que incorpora la cooperación académica transfronteriza y la inserción de competencias globales:
                 </p>
-                <div style="background:#ECFDF5; border:1px solid #A7F3D0; padding:10px; border-radius:6px; font-size:0.75rem; color:#166534;">
-                    <strong>Opciones de Grado (Acuerdo CS 14/2022):</strong> Proyecto de Grado, Semillero, Emprendimiento, Diplomado o Práctica.
+                <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-radius:6px; padding:10px; margin-bottom:10px;">
+                    <div style="font-weight:800; font-size:0.76rem; color:#15803D; margin-bottom:4px;">
+                        <i class="fas fa-handshake"></i> Convenio con la Universidad Internacional del Ecuador (UIDE):
+                    </div>
+                    <p style="font-size:0.72rem; color:#166534; line-height:1.5; margin:0;">
+                        Alianza interinstitucional formal para movilidad docente y estudiantil, desarrollo de clases espejo, proyectos de investigación conjunta y cátedras internacionales en marketing digital.
+                    </p>
+                </div>
+                <ul style="font-size:0.74rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                    <li><strong>Metodología COIL:</strong> Proyectos colaborativos en línea entre estudiantes de TO y universidades extranjeras aliadas.</li>
+                    <li><strong>Cátedra Global:</strong> Participación de conferencistas y directores de agencias internacionales en seminarios web.</li>
+                    <li><strong>Misiones Académicas:</strong> Participación en eventos, congresos y redes iberoamericanas de mercadeo digital.</li>
+                </ul>
+            </div>
+
+            <!-- Segunda Lengua -->
+            <div class="card" style="border-top:4px solid #7C3AED;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:800; color:var(--dark); margin:0;">
+                        <i class="fas fa-language" style="color:#7C3AED; margin-right:6px;"></i> 4. Competencias en Segunda Lengua (3.9.3)
+                    </h4>
+                    <span style="font-size:0.7rem; color:#6D28D9; background:#F3E8FF; padding:2px 8px; border-radius:4px; font-weight:700;">Nivel B1 MCER</span>
+                </div>
+                <p style="font-size:0.78rem; color:#475569; line-height:1.6; margin-bottom:12px;">
+                    El dominio del idioma inglés está <strong>100% curricularizado</strong> dentro del plan de estudios oficial para garantizar la competitividad internacional del egresado:
+                </p>
+                <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; margin-bottom:12px;">
+                    <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-radius:6px; padding:8px; text-align:center;">
+                        <div style="font-weight:800; font-size:0.74rem; color:#7E22CE;">Inglés I</div>
+                        <div style="font-size:0.68rem; color:#6B21A8;">Semestre II &middot; 3 Cr</div>
+                    </div>
+                    <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-radius:6px; padding:8px; text-align:center;">
+                        <div style="font-weight:800; font-size:0.74rem; color:#7E22CE;">Inglés II</div>
+                        <div style="font-size:0.68rem; color:#6B21A8;">Semestre III &middot; 3 Cr</div>
+                    </div>
+                    <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-radius:6px; padding:8px; text-align:center;">
+                        <div style="font-weight:800; font-size:0.74rem; color:#7E22CE;">Inglés III</div>
+                        <div style="font-size:0.68rem; color:#6B21A8;">Semestre IV &middot; 3 Cr</div>
+                    </div>
+                </div>
+                <div style="background:#FFFBEB; border:1px solid #FDE68A; border-radius:6px; padding:10px; font-size:0.74rem; color:#92400E; line-height:1.5;">
+                    <i class="fas fa-award"></i> <strong>Requisito Curricular Obligatorio:</strong> 9 créditos académicos (432 horas) reglamentados según el <strong>Acuerdo del Consejo Superior No. 015 de 2024</strong>, con apoyo de la plataforma Cambridge One y pruebas de suficiencia.
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- =========================================================
+<!-- =========================================================
          TAB D: CONCEPTUALIZACIÓN TEÓRICA Y EPISTEMOLÓGICA (LITERAL D)
          ========================================================= -->
     <div class="tab-panel" id="c3-epistemologicos" style="display:none;">
-        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
-            <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
-                <i class="fas fa-book-reader"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal d)
-            </span>
-            <h3 style="font-family:var(--font-heading); font-size:1.22rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
-                d) Conceptualización Teórica y Epistemológica del Programa
-            </h3>
-            <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:880px; line-height:1.5;">
-                <strong>Fundamentos teóricos y naturaleza del objeto de estudio:</strong> Descripción rigurosa del objeto de conocimiento del Marketing Digital: confluencia entre la ciencia del comportamiento del consumidor, la analítica predictiva de datos masivos y las plataformas tecnológicas contemporáneas.
-            </p>
+        <!-- BANNER DE ENCABEZADO NORMATIVO ART. 2.5.3.2.3.2.4 LITERAL D -->
+        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:22px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                <div>
+                    <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
+                        <i class="fas fa-book-reader"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal d)
+                    </span>
+                    <h3 style="font-family:var(--font-heading); font-size:1.25rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
+                        d) Conceptualización Teórica y Epistemológica del Programa (Registro Calificado Nuevo (144 Créditos - 8 Semestres))
+                    </h3>
+                    <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:850px; line-height:1.5;">
+                        <strong>Fundamentación conceptual rigurosa:</strong> Enfoque transdisciplinar que articula la comunicación, la tecnología, la economía y la ciencia de datos en la creación de valor en ecosistemas digitales complejos y sostenibles.
+                    </p>
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <span class="badge-presencial" style="background:#F39200; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-project-diagram"></i> Enfoque Transdisciplinar
+                    </span>
+                    <span class="badge-presencial" style="background:#0284C7; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-database"></i> Big Data & MarTech
+                    </span>
+                </div>
+            </div>
         </div>
 
-        <!-- MODELO TRIDIMENSIONAL EPISTEMOLÓGICO -->
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-bottom:24px;">
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1E40AF; border-radius:10px; padding:18px;">
-                <div style="font-size:0.75rem; font-weight:800; color:#1E40AF; text-transform:uppercase; margin-bottom:4px;">Dimensión 1</div>
-                <h4 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:0 0 8px 0;">Tecnológica y Analítica</h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin:0;">
-                    Fundamentada en la ciencia de datos, la inteligencia artificial aplicada, la algoritmia de recomendación y las herramientas MarTech que sustentan la toma de decisiones data-driven.
-                </p>
+        <!-- 1. OBJETO DE ESTUDIO DEL PROGRAMA -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #F39200;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:8px;">
+                <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0;">
+                    <i class="fas fa-bullseye" style="color:var(--orange); margin-right:8px;"></i> 1. Naturaleza del Objeto de Estudio de Marketing Digital (Numeral 3.5.1 DM)
+                </h4>
+                <span style="font-size:0.75rem; color:#B45309; background:#FEF3C7; padding:3px 10px; border-radius:6px; font-weight:700;">
+                    MNC Nivel 7 · Pregrado Universitario
+                </span>
+            </div>
+            <p style="font-size:0.85rem; color:#334155; line-height:1.65; margin-bottom:14px;">
+                El objeto de estudio del programa de Marketing Digital de la Corporación Escuela Tecnológica del Oriente se centra en la <strong>comprensión, análisis, diseño, gestión y optimización de las estrategias, procesos y herramientas que integran la comunicación, la tecnología y los negocios en entornos digitales</strong>. Su propósito rector es formar profesionales capaces de liderar procesos de transformación digital en organizaciones, emprendimientos y marcas, mediante la aplicación de estrategias de marketing innovadoras, éticas y sostenibles, fundamentadas en el uso estratégico de la información y la inteligencia de datos.
+            </p>
+
+            <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; margin-bottom:16px;">
+                <div style="background:#FFF7ED; border:1px solid #FFEDD5; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#C2410C; margin-bottom:4px;">
+                        <i class="fas fa-chart-line"></i> 1. Gestión Estratégica del Marketing
+                    </div>
+                    <p style="font-size:0.74rem; color:#431407; line-height:1.5; margin:0;">
+                        Combina la comunicación, la economía y la tecnología para el posicionamiento competitivo y la generación de valor en marcas y organizaciones.
+                    </p>
+                </div>
+                <div style="background:#F0F9FF; border:1px solid #E0F2FE; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#0369A1; margin-bottom:4px;">
+                        <i class="fas fa-digital-tachograph"></i> 2. Transformación Digital y Plataformas
+                    </div>
+                    <p style="font-size:0.74rem; color:#0C4A6E; line-height:1.5; margin:0;">
+                        Redefine las relaciones entre empresas, consumidores y plataformas interactivas, promoviendo la innovación en productos y experiencias de usuario.
+                    </p>
+                </div>
+                <div style="background:#F0FDF4; border:1px solid #DCFCE7; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#15803D; margin-bottom:4px;">
+                        <i class="fas fa-brain"></i> 3. Analítica e Inteligencia de Datos
+                    </div>
+                    <p style="font-size:0.74rem; color:#14532D; line-height:1.5; margin:0;">
+                        Aplica Big Data, algoritmos predictivos e IA como base empírica para la segmentación, personalización y optimización de resultados y ROI.
+                    </p>
+                </div>
             </div>
 
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #F39200; border-radius:10px; padding:18px;">
-                <div style="font-size:0.75rem; font-weight:800; color:#C2410C; text-transform:uppercase; margin-bottom:4px;">Dimensión 2</div>
-                <h4 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:0 0 8px 0;">Estratégica y de Negocio</h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin:0;">
-                    Comprende los modelos de monetización, el crecimiento acelerado (Growth Hacking), la omnicanalidad, la conversión e-commerce y la sostenibilidad comercial de proyectos en red.
+            <!-- Diferenciación frente a otros programas -->
+            <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                <div style="font-size:0.78rem; font-weight:800; color:#1E293B; margin-bottom:6px;">
+                    <i class="fas fa-balance-scale" style="color:#F39200;"></i> Diferenciación Epistemológica frente a Programas Afines (DM P876):
+                </div>
+                <p style="font-size:0.74rem; color:#475569; line-height:1.55; margin:0;">
+                    A diferencia de programas como Administración de Empresas (gestión organizacional), Comunicación Social (comunicación mediática), Publicidad (creatividad publicitaria) o Ingeniería de Sistemas (desarrollo técnico), <strong>Marketing Digital en TO articula de manera equilibrada la estrategia de mercadeo, la analítica cuantitativa de datos, la tecnología (MarTech) y la creatividad comunicativa</strong> en un solo cuerpo formativo interdisciplinar.
                 </p>
             </div>
+        </div>
 
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #16A34A; border-radius:10px; padding:18px;">
-                <div style="font-size:0.75rem; font-weight:800; color:#166534; text-transform:uppercase; margin-bottom:4px;">Dimensión 3</div>
-                <h4 style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:0 0 8px 0;">Humana, Ética y Cultural</h4>
-                <p style="font-size:0.8rem; color:#4B5563; line-height:1.55; margin:0;">
-                    Analiza la psicología del consumidor digital, la privacidad de datos personales (Habeas Data · Ley 1581/2012), la ciberética y el impacto social positivo de las marcas en la sociedad.
-                </p>
+        <!-- 2. LAS 4 GRANDES CORRIENTES TEÓRICAS Y EPISTEMOLÓGICAS (DM P881-P898) -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #0284C7;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-layer-group" style="color:#0284C7; margin-right:8px;"></i> 2. Los 4 Fundamentos Teóricos y Epistemológicos Oficiales (Numeral 3.5.2 DM)
+            </h4>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <!-- 1. Marketing y Estrategia -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #F39200; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#C2410C; margin-bottom:6px;">
+                        <i class="fas fa-chess-knight"></i> 1. Marketing y Estrategia Digital
+                    </div>
+                    <p style="font-size:0.75rem; color:#334155; line-height:1.55; margin-bottom:8px;">
+                        <strong>Referentes Canónicos:</strong> Philip Kotler & Kevin Keller (2016 - Marketing Estratégico y Valor), Leonard Berry (1983 - Marketing Relacional), Robert Morgan & Shelby Hunt (1994 - Confianza y Redes), Bernd Schmitt (1999 - Marketing Experiencial), Damian Ryan (2017) y Dave Chaffey & Fiona Ellis-Chadwick (2019 - Enfoque Data-Driven).
+                    </p>
+                    <div style="background:#FFF7ED; border-radius:6px; padding:8px; font-size:0.72rem; color:#9A3412;">
+                        <strong>Asignaturas Clave:</strong> Fundamentos de Marketing Digital, Estrategias de Marketing Digital, Neuromarketing, Performance Marketing y Growth Hacking.
+                    </div>
+                </div>
+
+                <!-- 2. Comunicación y Cultura -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #0284C7; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#0369A1; margin-bottom:6px;">
+                        <i class="fas fa-network-wired"></i> 2. Comunicación, Cultura y Tecnología Digital
+                    </div>
+                    <p style="font-size:0.75rem; color:#334155; line-height:1.55; margin-bottom:8px;">
+                        <strong>Referentes Canónicos:</strong> Manuel Castells (2006 - Teoría de la Sociedad Red), Henry Jenkins (2008 - Convergencia Mediática y Narrativas Transmedia), Thomas Davenport & John Beck (2001 - Economía de la Atención y Ecosistemas Digitales).
+                    </p>
+                    <div style="background:#F0F9FF; border-radius:6px; padding:8px; font-size:0.72rem; color:#0C4A6E;">
+                        <strong>Asignaturas Clave:</strong> Comunicación y Ecosistemas Digitales, Diseño UX/UI, Contenidos Multimedia, Storytelling Transmedia, Gestión de la Reputación.
+                    </div>
+                </div>
+
+                <!-- 3. Analítica y Datos -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #16A34A; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#15803D; margin-bottom:6px;">
+                        <i class="fas fa-brain"></i> 3. Analítica, Datos e Inteligencia Artificial
+                    </div>
+                    <p style="font-size:0.75rem; color:#334155; line-height:1.55; margin-bottom:8px;">
+                        <strong>Referentes Canónicos:</strong> Bernard Marr (2016 - Toma de Decisiones Basada en Datos), Foster Provost & Tom Fawcett (2013 - Data Science for Business y Big Data), Luciano Floridi (2013 - Filosofía de la Información, Ética Digital y Ciberseguridad).
+                    </p>
+                    <div style="background:#F0FDF4; border-radius:6px; padding:8px; font-size:0.72rem; color:#14532D;">
+                        <strong>Asignaturas Clave:</strong> Big Data y Analítica de Datos, Analítica Web y Métricas, Ciencia de Datos Aplicada e Inteligencia Artificial.
+                    </div>
+                </div>
+
+                <!-- 4. Innovación y Emprendimiento -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #7C3AED; border-radius:8px; padding:14px;">
+                    <div style="font-weight:800; font-size:0.85rem; color:#6D28D9; margin-bottom:6px;">
+                        <i class="fas fa-lightbulb"></i> 4. Innovación, Investigación y Emprendimiento
+                    </div>
+                    <p style="font-size:0.75rem; color:#334155; line-height:1.55; margin-bottom:8px;">
+                        <strong>Referentes Canónicos:</strong> Ikujiro Nonaka & Hirotaka Takeuchi (1995 - Creación del Conocimiento Organizacional), Steve Blank & Eric Ries (Lean Startup y Validación Ágil), Joseph Schumpeter (Innovación y Destrucción Creativa).
+                    </p>
+                    <div style="background:#FAF5FF; border-radius:6px; padding:8px; font-size:0.72rem; color:#581C87;">
+                        <strong>Asignaturas Clave:</strong> Innovación y Emprendimiento Digital, Metodología de la Investigación, Proyecto de Grado, Práctica Profesional.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. NÚCLEOS PROBLÉMICOS DEL PROGRAMA -->
+        <div class="card" style="margin-bottom:20px; border-top:4px solid #16A34A;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-question-circle" style="color:#16A34A; margin-right:8px;"></i> 3. Núcleos Problémicos y Preguntas Orientadoras del Currículo
+            </h4>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#C2410C; margin-bottom:4px;">
+                        <i class="fas fa-globe"></i> NP1: Estrategia y Modelos de Negocio
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        ¿Cómo estructurar modelos de negocio en red y estrategias de valor que aseguren la competitividad y rentabilidad en la economía digital?
+                    </p>
+                </div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#0284C7; margin-bottom:4px;">
+                        <i class="fas fa-users"></i> NP2: Ecosistemas y Experiencia de Usuario
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        ¿De qué manera las narrativas transmedia y el diseño UX/UI potencian la interacción significativa entre marcas y usuarios en múltiples plataformas?
+                    </p>
+                </div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#16A34A; margin-bottom:4px;">
+                        <i class="fas fa-chart-pie"></i> NP3: Analítica, MarTech e IA
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        ¿Cómo aplicar la inteligencia de datos y la automatización para optimizar la toma de decisiones, la segmentación y el ROI de las campañas?
+                    </p>
+                </div>
+                <div style="background:#FFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <div style="font-weight:800; font-size:0.8rem; color:#7C3AED; margin-bottom:4px;">
+                        <i class="fas fa-shield-alt"></i> NP4: Ética, Privacidad y Gobernanza
+                    </div>
+                    <p style="font-size:0.75rem; color:#475569; line-height:1.5; margin:0;">
+                        ¿Cómo salvaguardar la privacidad de datos bajo la Ley 1581 de 2012 y garantizar un uso transparente y ético de la inteligencia artificial?
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- =========================================================
+<!-- =========================================================
          TAB E: MECANISMOS DE EVALUACIÓN (LITERAL E)
          ========================================================= -->
     <div class="tab-panel" id="c3-evaluacion" style="display:none;">
-        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:20px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
-            <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
-                <i class="fas fa-clipboard-check"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal e)
-            </span>
-            <h3 style="font-family:var(--font-heading); font-size:1.22rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
-                e) Mecanismos de Evaluación · Medición de RAPs y Toma de Decisiones
-            </h3>
-            <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:880px; line-height:1.5;">
-                <strong>Instrumentos de medición y seguimiento:</strong> Herramientas para el análisis oportuno y toma de decisiones, orientadas a evaluar y mejorar el desempeño formativo de los estudiantes en relación con los Resultados de Aprendizaje del Programa (RAPs) mediante cortes institucionales oficiales (20%, 25%, 55%).
-            </p>
-        </div>
-
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-bottom:24px;">
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #F39200; border-radius:10px; padding:18px;">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0;">Corte 1 · Fundamentación</h4>
-                    <span style="background:#FFF7ED; color:#C2410C; font-weight:800; font-size:0.82rem; padding:2px 8px; border-radius:6px;">20%</span>
+        <!-- BANNER DE ENCABEZADO NORMATIVO ART. 2.5.3.2.3.2.4 LITERAL E -->
+        <div style="background:linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color:#fff; padding:22px 24px; border-radius:10px; margin-bottom:20px; border-left:6px solid #F39200; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                <div>
+                    <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1.5px; color:#FBBF24; font-weight:800;">
+                        <i class="fas fa-clipboard-check"></i> Decreto 1330 de 2019 · Artículo 2.5.3.2.3.2.4 · Literal e)
+                    </span>
+                    <h3 style="font-family:var(--font-heading); font-size:1.25rem; font-weight:800; color:#fff; margin-top:4px; margin-bottom:6px;">
+                        e) Mecanismos de Evaluación · Sistema Socioformativo y Seguimiento a Resultados de Aprendizaje
+                    </h3>
+                    <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:850px; line-height:1.5;">
+                        <strong>Evaluación integral y formativa:</strong> Articulación de rúbricas analíticas socioformativas, ponderación institucional por cortes (20%, 25%, 55%), evaluación tripartita y trazabilidad tecnopedagógica en LMS Moodle 4.5.5.
+                    </p>
                 </div>
-                <div style="font-size:0.8rem; color:#4B5563; line-height:1.5;">
-                    • <strong>Tarea 1 (15%):</strong> Taller Aplicativo y Diagnóstico Inicial.<br>
-                    • <strong>Quiz 1 (5%):</strong> Control de Lectura y Verificación Conceptual.
-                </div>
-            </div>
-
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #1E40AF; border-radius:10px; padding:18px;">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0;">Corte 2 · Aplicación Práctica</h4>
-                    <span style="background:#EFF6FF; color:#1E40AF; font-weight:800; font-size:0.82rem; padding:2px 8px; border-radius:6px;">25%</span>
-                </div>
-                <div style="font-size:0.8rem; color:#4B5563; line-height:1.5;">
-                    • <strong>Tarea 2 (20%):</strong> Estudio de Caso Empresarial (ABP).<br>
-                    • <strong>Quiz 2 (5%):</strong> Evaluación Analítica y Destrezas Técnicas.
-                </div>
-            </div>
-
-            <div style="background:#FFFFFF; border:1px solid #E5E7EB; border-top:4px solid #16A34A; border-radius:10px; padding:18px;">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                    <h4 style="font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0;">Corte 3 · Consolidación y Cierre</h4>
-                    <span style="background:#ECFDF5; color:#166534; font-weight:800; font-size:0.82rem; padding:2px 8px; border-radius:6px;">55%</span>
-                </div>
-                <div style="font-size:0.8rem; color:#4B5563; line-height:1.5;">
-                    • <strong>Tarea 3 (20%):</strong> Producto Integrador de la Asignatura.<br>
-                    • <strong>Evaluación Final (35%):</strong> Sustentación Integral del Resultado de Aprendizaje.
+                <div style="display:flex; gap:8px;">
+                    <span class="badge-presencial" style="background:#059669; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-chart-pie"></i> Cortes 20% &middot; 25% &middot; 55%
+                    </span>
+                    <span class="badge-presencial" style="background:#0284C7; color:#fff; font-size:0.76rem; font-weight:800; padding:4px 12px; border-radius:20px;">
+                        <i class="fas fa-user-check"></i> Rúbricas Socioformativas (Tobón)
+                    </span>
                 </div>
             </div>
         </div>
 
-        <div style="background:#F8F9FA; border:1px solid #E5E7EB; border-radius:10px; padding:16px;">
-            <strong style="color:#1A1A1B; font-size:0.85rem;"><i class="fas fa-check-double" style="color:#16A34A;"></i> Rúbricas Analíticas Socioformativas:</strong>
-            <p style="font-size:0.78rem; color:#4B5563; margin:6px 0 0 0; line-height:1.5;">
-                Todas las evidencias evaluativas son valoradas mediante rúbricas institucionales oficiales publicadas en el LMS Moodle, con descriptores por niveles de logro y retroalimentación formativa oportuna orientada a la mejora continua y prevención de la deserción.
+        <!-- 1. SISTEMA INSTITUCIONAL DE EVALUACIÓN Y PONDERACIÓN -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #F39200;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:8px;">
+                <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0;">
+                    <i class="fas fa-percentage" style="color:var(--orange); margin-right:8px;"></i> 1. Sistema Institucional de Evaluación del Aprendizaje (Socioformativo)
+                </h4>
+                <span style="font-size:0.75rem; color:#B45309; background:#FEF3C7; padding:3px 10px; border-radius:6px; font-weight:700;">
+                    Reglamento Estudiantil &middot; PEI TO
+                </span>
+            </div>
+            <p style="font-size:0.85rem; color:#334155; line-height:1.65; margin-bottom:16px;">
+                La evaluación del aprendizaje en la Corporación Escuela Tecnológica del Oriente se asume como un <strong>proceso formativo, continuo, sistemático y transparente</strong> (evaluación para el aprendizaje), cuyo fin principal es verificar el progreso en el alcance de los Resultados de Aprendizaje del Programa (RAP) y retroalimentar oportunamente las oportunidades de mejora de los estudiantes.
             </p>
+
+            <!-- Cortes Evaluativos -->
+            <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-bottom:18px;">
+                <!-- Corte 1 -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #0284C7; border-radius:8px; padding:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:800; font-size:0.85rem; color:#0369A1;">Primer Corte</span>
+                        <span style="font-size:0.8rem; font-weight:800; color:#0284C7; background:#E0F2FE; padding:2px 8px; border-radius:4px;">20%</span>
+                    </div>
+                    <ul style="font-size:0.75rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                        <li><strong>Tareas y Talleres Prácticos:</strong> 15% (actividades de aplicación formativa).</li>
+                        <li><strong>Quizzes / Pruebas Cortas:</strong> 5% (comprobación de conceptos).</li>
+                    </ul>
+                </div>
+                <!-- Corte 2 -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #059669; border-radius:8px; padding:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:800; font-size:0.85rem; color:#047857;">Segundo Corte</span>
+                        <span style="font-size:0.8rem; font-weight:800; color:#059669; background:#DCFCE7; padding:2px 8px; border-radius:4px;">25%</span>
+                    </div>
+                    <ul style="font-size:0.75rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                        <li><strong>Tareas Formativas de Profundización:</strong> 20% (análisis de casos).</li>
+                        <li><strong>Quizzes / Controles de Lectura:</strong> 5% (evaluación continua).</li>
+                    </ul>
+                </div>
+                <!-- Corte 3 -->
+                <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-top:3px solid #F39200; border-radius:8px; padding:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:800; font-size:0.85rem; color:#C2410C;">Tercer Corte</span>
+                        <span style="font-size:0.8rem; font-weight:800; color:#F39200; background:#FFEDD5; padding:2px 8px; border-radius:4px;">55%</span>
+                    </div>
+                    <ul style="font-size:0.75rem; color:#475569; line-height:1.55; padding-left:16px; margin:0;">
+                        <li><strong>Talleres y Casos de Estudio:</strong> 20%</li>
+                        <li><strong>Producto Integrador / Proyecto de Aula:</strong> 20%</li>
+                        <li><strong>Evaluación Final / Cuestionario Integral:</strong> 15%</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Evaluación Tripartita -->
+            <div style="background:#FAF5FF; border:1px solid #E9D5FF; border-radius:8px; padding:14px;">
+                <div style="font-weight:800; font-size:0.82rem; color:#6D28D9; margin-bottom:6px;">
+                    <i class="fas fa-users-cog"></i> Modelo de Evaluación Tripartita Institucional (PEI TO):
+                </div>
+                <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:12px;">
+                    <div style="background:#FFF; border:1px solid #DDD6FE; border-radius:6px; padding:10px;">
+                        <strong style="font-size:0.76rem; color:#5B21B6;">Autoevaluación (10%):</strong>
+                        <p style="font-size:0.72rem; color:#4C1D95; margin:3px 0 0 0; line-height:1.45;">
+                            Reflexión metacognitiva sobre el propio desempeño, autorregulación y compromiso formativo.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #DDD6FE; border-radius:6px; padding:10px;">
+                        <strong style="font-size:0.76rem; color:#5B21B6;">Coevaluación (10%):</strong>
+                        <p style="font-size:0.72rem; color:#4C1D95; margin:3px 0 0 0; line-height:1.45;">
+                            Valoración constructiva y ética entre pares respecto al trabajo en equipo y los aportes colaborativos.
+                        </p>
+                    </div>
+                    <div style="background:#FFF; border:1px solid #DDD6FE; border-radius:6px; padding:10px;">
+                        <strong style="font-size:0.76rem; color:#5B21B6;">Heteroevaluación (80%):</strong>
+                        <p style="font-size:0.72rem; color:#4C1D95; margin:3px 0 0 0; line-height:1.45;">
+                            Calificación y retroalimentación técnica del docente tutor sustentada en rúbricas analíticas oficiales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. RÚBRICAS ANALÍTICAS Y NIVELES DE DESEMPEÑO -->
+        <div class="card" style="margin-bottom:22px; border-top:4px solid #0284C7;">
+            <h4 style="font-family:var(--font-heading); font-size:1.05rem; font-weight:800; color:var(--dark); margin:0 0 14px 0;">
+                <i class="fas fa-table" style="color:#0284C7; margin-right:8px;"></i> 2. Rúbricas Analíticas Socioformativas y los 4 Niveles de Desempeño (Sergio Tobón)
+            </h4>
+            <div style="overflow-x:auto;">
+                <table style="width:100%; border-collapse:collapse; font-size:0.76rem; color:#334155;">
+                    <thead>
+                        <tr style="background:#F1F5F9; border-bottom:2px solid #CBD5E1; text-align:left;">
+                            <th style="padding:10px; width:18%;">Nivel de Dominio</th>
+                            <th style="padding:10px; width:15%;">Ponderación</th>
+                            <th style="padding:10px;">Descriptor Socioformativo General</th>
+                            <th style="padding:10px; width:35%;">Aplicación Concreta en Marketing Digital</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #E2E8F0;">
+                            <td style="padding:10px; font-weight:800; color:#DC2626;">
+                                <i class="fas fa-circle" style="font-size:0.6rem; color:#DC2626; margin-right:4px;"></i> Receptivo
+                            </td>
+                            <td style="padding:10px; font-weight:700; color:#475569;">0.0 - 2.9 (Inicial)</td>
+                            <td style="padding:10px; line-height:1.5;">Tiene nociones sobre los conceptos básicos y reconoce la terminología elemental, requiriendo guía permanente.</td>
+                            <td style="padding:10px; line-height:1.5; color:#1E293B;">Identifica conceptos básicos de marketing digital, reconoce terminología técnica y describe herramientas de software comercial sin aplicarlas autónomamente.</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #E2E8F0; background:#FAFDFB;">
+                            <td style="padding:10px; font-weight:800; color:#D97706;">
+                                <i class="fas fa-circle" style="font-size:0.6rem; color:#D97706; margin-right:4px;"></i> Resolutivo
+                            </td>
+                            <td style="padding:10px; font-weight:700; color:#475569;">3.0 - 3.7 (Básico)</td>
+                            <td style="padding:10px; line-height:1.5;">Resuelve problemas estructurados y procedimientos operativos aplicando algoritmos y herramientas estándar.</td>
+                            <td style="padding:10px; line-height:1.5; color:#1E293B;">Configura campañas operativas en plataformas publicitarias (Google Ads, Meta Ads) y calcula métricas e indicadores de rendimiento estándar (CTR, CPC, CPA).</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #E2E8F0;">
+                            <td style="padding:10px; font-weight:800; color:#0284C7;">
+                                <i class="fas fa-circle" style="font-size:0.6rem; color:#0284C7; margin-right:4px;"></i> Autónomo
+                            </td>
+                            <td style="padding:10px; font-weight:700; color:#475569;">3.8 - 4.5 (Avanzado)</td>
+                            <td style="padding:10px; line-height:1.5;">Actúa con criterio propio, argumenta con base teórica, soluciona problemas contextuales y evalúa resultados.</td>
+                            <td style="padding:10px; line-height:1.5; color:#1E293B;">Diseña planes integrales de mercadeo digital, optimiza presupuestos con analítica avanzada, argumenta propuestas con evidencia y aplica principios éticos de datos.</td>
+                        </tr>
+                        <tr style="background:#F0FDF4;">
+                            <td style="padding:10px; font-weight:800; color:#16A34A;">
+                                <i class="fas fa-circle" style="font-size:0.6rem; color:#16A34A; margin-right:4px;"></i> Estratégico
+                            </td>
+                            <td style="padding:10px; font-weight:700; color:#475569;">4.6 - 5.0 (Sobresaliente)</td>
+                            <td style="padding:10px; line-height:1.5;">Genera innovaciones, lidera procesos complejos, aplica el pensamiento sistémico y prospectivo ante la incertidumbre.</td>
+                            <td style="padding:10px; line-height:1.5; color:#1E293B;">Lidera procesos de transformación digital, formula modelos de negocio disruptivos, genera soluciones creativas ante contextos de alta incertidumbre y mide el impacto ético.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 3. TRAZABILIDAD Y ALERTAS TEMPRANAS -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px;">
+            <!-- LMS Moodle -->
+            <div class="card" style="border-top:4px solid #16A34A;">
+                <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:800; color:var(--dark); margin:0 0 10px 0;">
+                    <i class="fas fa-laptop" style="color:#16A34A; margin-right:6px;"></i> 3. Trazabilidad Tecnológica en LMS Moodle 4.5.5
+                </h4>
+                <ul style="font-size:0.75rem; color:#475569; line-height:1.6; padding-left:18px; margin:0;">
+                    <li><strong>Libro de Calificaciones Ponderado:</strong> Configuración matemática estricta por cortes oficiales (20%, 25%, 55%) visible para el estudiante en tiempo real.</li>
+                    <li><strong>Retroalimentación Cualitativa:</strong> Comentarios obligatorios del docente tutor en cada entrega con rúbrica analítica anexa.</li>
+                    <li><strong>Control de Originalidad:</strong> Integración de motor antiplagio para verificar la integridad académica en entregables y ensayos.</li>
+                    <li><strong>Registro Forense de Actividad:</strong> Logs de acceso, participación en foros y tiempos de dedicación en AWS Cloud.</li>
+                </ul>
+            </div>
+
+            <!-- SAT -->
+            <div class="card" style="border-top:4px solid #EA580C;">
+                <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:800; color:var(--dark); margin:0 0 10px 0;">
+                    <i class="fas fa-exclamation-triangle" style="color:#EA580C; margin-right:6px;"></i> 4. Sistema de Alertas Tempranas (SAT)
+                </h4>
+                <ul style="font-size:0.75rem; color:#475569; line-height:1.6; padding-left:18px; margin:0;">
+                    <li><strong>Monitoreo de Ingresos:</strong> Alerta automática cuando un estudiante no registra actividad por más de 5 días hábiles en el aula virtual.</li>
+                    <li><strong>Acompañamiento Psicosocial:</strong> Intervención oportuna de Bienestar Institucional ante factores de riesgo de deserción.</li>
+                    <li><strong>Tutorías de Refuerzo Académico:</strong> Sesiones complementarias programadas para estudiantes con promedios inferiores a 3.0 en primer corte.</li>
+                    <li><strong>Comités Curriculares Periódicos:</strong> Evaluación mensual del rendimiento académico por parte de la Escuela de Ingenierías y Ciencias Económicas.</li>
+                </ul>
+            </div>
         </div>
     </div>
+
 </div>
 `;
 
