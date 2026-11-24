@@ -242,7 +242,7 @@ window.SECTIONS['c2'] = `
         <div style="background:#F0FDF4; border:1.5px solid #BBF7D0; border-radius:10px; padding:14px;">
             <div style="font-size:0.68rem; font-weight:800; color:#15803D; text-transform:uppercase;">Universo Ampliado (Anexo 4)</div>
             <div style="font-family:'Montserrat',sans-serif; font-size:1.5rem; font-weight:900; color:#166534;">89 Afines SNIES</div>
-            <div style="font-size:0.72rem; color:#15803D; font-weight:700;">11 Oficiales (12,4%) y 78 Privados (87,6%) · Solo 4 en Bucaramanga</div>
+            <div style="font-size:0.72rem; color:#15803D; font-weight:700;">11 Oficiales y 78 Privados · <strong>En Santander y Nororiente: 0 Programas Virtuales</strong> (Exclusividad Territorial TO)</div>
         </div>
     </div>
 
@@ -837,6 +837,33 @@ window.SECTIONS['c2'] = `
 <!-- ========================================================================= -->
 <!-- EJE 7: DIFERENCIACIÓN POR MODALIDAD BAJO REGISTRO ÚNICO                   -->
 <!-- ========================================================================= -->
+
+        <!-- PROTOCOLO INSTITUCIONAL DE EQUIVALENCIA FORMATIVA Y MATRIZ DE DIFERENCIADORES -->
+        <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-top:4px solid #16A34A; border-radius:10px; padding:18px 20px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; border-bottom:1px solid #DCFCE7; padding-bottom:8px;">
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#14532D; margin:0; display:flex; align-items:center; gap:8px;">
+                    <i class="fas fa-scale-balanced" style="color:#16A34A;"></i> Protocolo Institucional de Equivalencia Formativa (Presencial vs Virtual)
+                </h5>
+                <span style="background:#DCFCE7; color:#166534; font-size:0.72rem; font-weight:800; padding:3px 10px; border-radius:12px;">
+                    Registro Único · Decreto 1330
+                </span>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px; font-size:0.8rem; color:#166534; line-height:1.45; font-family:'Open Sans',sans-serif;">
+                <div style="background:#FFFFFF; border:1px solid #DCFCE7; padding:12px; border-radius:6px;">
+                    <strong>1. Plan y RAPs Idénticos:</strong> Mismas 48 asignaturas, 144 créditos y 26 RAPs evaluados con las mismas rúbricas socioformativas institucionales.
+                </div>
+                <div style="background:#FFFFFF; border:1px solid #DCFCE7; padding:12px; border-radius:6px;">
+                    <strong>2. Dosificación Horaria Rigurosa:</strong> Presencial opera relación 1:2 (16h directas + 32h indep.) y Virtual opera 1:3 (12h mediadas + 36h autónomo) = 48h/crédito.
+                </div>
+                <div style="background:#FFFFFF; border:1px solid #DCFCE7; padding:12px; border-radius:6px;">
+                    <strong>3. Mismos Ambientes y Licencias:</strong> Acceso equitativo y 24/7 a Adobe Creative Cloud, e-Libro (98.199 títulos), suite MarTech y Microsoft 365.
+                </div>
+                <div style="background:#FFFFFF; border:1px solid #DCFCE7; padding:12px; border-radius:6px;">
+                    <strong>4. Docentes de Alta Jerarquía:</strong> Misma planta profesoral vinculada con maestría y doctorado orienta ambas modalidades. Ratio máximo virtual: 1:23.
+                </div>
+            </div>
+        </div>
+
 <div id="c2-eje-7" class="c2-eje-panel" style="display:none; background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #F39200; border-radius:12px; padding:22px; margin-bottom:24px; box-shadow:0 4px 14px rgba(0,0,0,0.05);">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:16px; border-bottom:1px solid #E8E8E8; padding-bottom:12px;">
         <div>

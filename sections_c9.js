@@ -61,6 +61,56 @@ window.SECTIONS['c9'] = `
 </div>
 
 <!-- TABLA 70 DEL DOCUMENTO MAESTRO: CAPACIDAD INSTALADA SEDES A, B Y C -->
+
+<!-- ACCESIBILIDAD UNIVERSAL NTC 4143, CONCILIACIÓN DE CAPACIDAD SEDE A (304 VS 388) E INVERSIÓN $1.410M -->
+<div style="background:#F8FAFC; border:1px solid #CBD5E1; border-top:4px solid #0077B6; border-radius:10px; padding:20px; margin-bottom:24px; box-shadow:0 3px 12px rgba(0,0,0,0.04);">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:10px;">
+        <h5 style="font-family:'Montserrat',sans-serif; font-size:1rem; font-weight:800; color:#0F172A; margin:0; display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-wheelchair" style="color:#0077B6;"></i> Accesibilidad Universal (Norma NTC 4143), Conciliación de Aforos e Inversión $1.410M
+        </h5>
+        <span style="background:#E0F2FE; color:#0369A1; font-size:0.75rem; font-weight:800; padding:4px 12px; border-radius:12px; border:1px solid #BAE6FD;">
+            3 Sedes Bucaramanga (7.679 m²)
+        </span>
+    </div>
+
+    <!-- Fichas de Accesibilidad por Sede -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px; font-size:0.78rem; margin-bottom:16px;">
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:12px; border-radius:6px;">
+            <strong style="color:#0077B6; display:block; margin-bottom:4px;"><i class="fas fa-building"></i> Sede A (Calle 41 # 10-30 - Principal)</strong>
+            Acceso a nivel con <strong>rampa reglamentaria NTC 4143 (pendiente 8%)</strong>, pasillos de 1.80 m libres, batería de baños adaptados en primer piso y plan de evacuación accesible.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:12px; border-radius:6px;">
+            <strong style="color:#2563EB; display:block; margin-bottom:4px;"><i class="fas fa-elevator"></i> Sede B (Cra 11 # 41-42 - Campus Tecnológico)</strong>
+            Edificio de 5 pisos dotado de <strong>ascensor panorámico electromecánico certificado para 8 personas</strong> con botonera braille y avisos sonoros; baños adaptados en cada piso.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:12px; border-radius:6px;">
+            <strong style="color:#10B981; display:block; margin-bottom:4px;"><i class="fas fa-school"></i> Sede C (Calle 42 # 10-25 - Extensión)</strong>
+            Acceso directo a nivel de calle sin desniveles; puertas de doble hoja (1.20 m) en aulas y oficinas; baño con barras de transferencia según normativa NSR-10.
+        </div>
+    </div>
+
+    <!-- Conciliación de Aforos Sede A y Mantenimiento -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+        <div style="background:#EDF8F4; border:1px solid #C6F6D5; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#14532D; display:block; margin-bottom:4px;">
+                <i class="fas fa-calculator" style="color:#16A34A;"></i> Conciliación de Cifras de Capacidad Sede A (304 vs 388)
+            </strong>
+            <p style="font-size:0.77rem; color:#166534; margin:0; line-height:1.45;">
+                <strong>304 puestos:</strong> Capacidad simultánea exclusiva de aulas de clase teóricas diurnas.<br>
+                <strong>388 puestos (Tabla 55):</strong> Capacidad física total instalada del inmueble (aulas 304 + cómputo móvil 30 + biblioteca 34 + asesoría docente 20).
+            </p>
+        </div>
+        <div style="background:#FFF7ED; border:1px solid #FED7AA; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#9A3412; display:block; margin-bottom:4px;">
+                <i class="fas fa-screwdriver-wrench" style="color:#F39200;"></i> Plan de Inversión y Mantenimiento ($1.410M)
+            </strong>
+            <p style="font-size:0.77rem; color:#7C2D12; margin:0; line-height:1.45;">
+                Aprobado por el Consejo Superior a 7 años: Adecuaciones y obras físicas ($420M); Reposición tecnológica y redes ($530M); Licencias y plataformas ($280M); Mantenimiento preventivo ($180M).
+            </p>
+        </div>
+    </div>
+</div>
+
 <div style="background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #F39200; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
     <h5 style="font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0 0 12px;">
         <i class="fas fa-building" style="color:#F39200; margin-right:6px;"></i> Tabla No. 70 del Documento Maestro: Características y Capacidad Instalada de las Sedes A, B y C en Bucaramanga

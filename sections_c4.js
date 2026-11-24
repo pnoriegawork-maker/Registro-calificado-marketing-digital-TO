@@ -62,7 +62,33 @@ window.SECTIONS['c4'] = `
             </h4>
         </div>
 
-        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(380px, 1fr)); gap:18px; margin-bottom:20px;">
+        
+<!-- GARANTÍA PRESUPUESTAL Y ESTADO DE PRODUCCIÓN ADDIE (ACUERDO CS NO. 03 DE 2026) -->
+<div style="background:#FFFDF7; border:1px solid #FED7AA; border-left:5px solid #F39200; border-radius:10px; padding:18px 20px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+        <h5 style="font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#9A3412; margin:0; display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-server" style="color:#F39200;"></i> Estado Real de Virtualización y Garantía Presupuestal ADDIE (Acuerdo CS No. 03 de 2026)
+        </h5>
+        <span style="background:#F39200; color:#FFFFFF; font-size:0.75rem; font-weight:800; padding:3px 10px; border-radius:12px;">
+            Reserva Aprobada: $275.400.000 COP
+        </span>
+    </div>
+    <div style="font-size:0.83rem; color:#7C2D12; line-height:1.5; font-family:'Open Sans',sans-serif;">
+        La institución responde a las exigencias operativas del Decreto 1330 de 2019 con un plan estructurado y financiado:
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px; margin-top:10px;">
+            <div style="background:#FFFFFF; border:1px solid #FED7AA; padding:12px; border-radius:6px;">
+                <strong style="color:#C2410C; display:block; margin-bottom:4px;"><i class="fas fa-check-circle" style="color:#16A34A;"></i> 18 Asignaturas Listas (100% Virtualizadas)</strong>
+                Corresponden a los Semestres I, II y III (año y medio de operación garantizado). Activas en Moodle AWS 4.5.5, con credenciales de auditoría CONACES: Usuario: <code>marketing</code> / Contraseña: <code>Marketing2025*</code>.
+            </div>
+            <div style="background:#FFFFFF; border:1px solid #FED7AA; padding:12px; border-radius:6px;">
+                <strong style="color:#C2410C; display:block; margin-bottom:4px;"><i class="fas fa-clock" style="color:#F39200;"></i> 30 Asignaturas en Producción ADDIE</strong>
+                Respaldadas por la reserva presupuestal de <strong>$275.400.000 COP</strong> (Acuerdo CS No. 03/2026). Producir semestres finales anticipadamente generaría obsolescencia de contenidos frente a la rápida evolución del MarTech e IA.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(380px, 1fr)); gap:18px; margin-bottom:20px;">
             <div style="background:#FFF7ED; border:1.5px solid #FED7AA; border-top:5px solid #F39200; border-radius:10px; padding:18px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                     <span style="background:#F39200; color:#FFFFFF; font-size:0.72rem; font-weight:800; padding:3px 10px; border-radius:12px;">MODALIDAD VIRTUAL · RELACIÓN 1:3</span>

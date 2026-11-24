@@ -65,6 +65,74 @@ window.SECTIONS['c6'] = `
 </div>
 
 <!-- TABLA 56 DEL DOCUMENTO MAESTRO: PLAN DE VINCULACIÓN CON EL SECTOR EXTERNO A 7 AÑOS -->
+
+<!-- 11 CONVENIOS ESPECÍFICOS VIGENTES, CONSULTORIO CIDRE Y EGRESADOS SIGA -->
+<div style="background:#F8FAFC; border:1px solid #CBD5E1; border-top:4px solid #F39200; border-radius:10px; padding:20px; margin-bottom:24px; box-shadow:0 3px 12px rgba(0,0,0,0.04);">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:10px;">
+        <h5 style="font-family:'Montserrat',sans-serif; font-size:1rem; font-weight:800; color:#0F172A; margin:0; display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-file-contract" style="color:#F39200;"></i> 11 Convenios Institucionales Específicos Vigentes para Marketing Digital
+        </h5>
+        <span style="background:#FFF7ED; color:#C2410C; font-size:0.75rem; font-weight:800; padding:4px 12px; border-radius:12px; border:1px solid #FED7AA;">
+            CUEES Santander · Prácticas & Proyección
+        </span>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:10px; font-size:0.78rem; margin-bottom:16px;">
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>1. CUEES Santander:</strong> Mesa de Transformación Digital y Clúster TIC para proyectos universidad-empresa.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>2. Cámara de Comercio de Bucaramanga:</strong> Formación en comercio electrónico y consultorías a MiPymes.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>3. FENALCO Santander:</strong> Prácticas profesionales en retail y planes de digitalización comercial.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>4. ACOPI Regional Oriente:</strong> Diagnósticos de presencia digital y embudos B2B para manufactura local.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>5. Alcaldía de Bucaramanga:</strong> Apoyo digital a las ferias del calzado y emprendimientos del IMEBU.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>6. INDERBU:</strong> Gestión de pauta y redes sociales para eventos deportivos comunitarios.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>7. Cruz Roja Santander:</strong> Campañas de comunicación institucional y captación de fondos.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>8. Grupo Coomeva:</strong> Prácticas formativas en fidelización y marketing relacional.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>9. Fundación Cardiovascular (FCV):</strong> Analítica de métricas y contenidos en salud digital.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>10. Promotora de Café de Colombia:</strong> Estrategia digital de exportación y branding.
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:10px 12px; border-radius:6px;">
+            <strong>11. Agencia Conexo Marketing:</strong> Banco de prácticas en medios pagados y analítica web.
+        </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+        <div style="background:#EDF8F4; border:1px solid #C6F6D5; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#14532D; display:block; margin-bottom:4px;">
+                <i class="fas fa-stethoscope" style="color:#16A34A;"></i> Consultorio CIDRE: Clínica de Diagnóstico Digital
+            </strong>
+            <p style="font-size:0.77rem; color:#166534; margin:0; line-height:1.45;">
+                Estudiantes de 6º a 8º semestre intervienen MiPymes reales diseñando planes de transformación digital (Meta: 60 MiPymes diagnosticadas por año).
+            </p>
+        </div>
+        <div style="background:#EBF8FF; border:1px solid #BEE3F8; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#1E3A8A; display:block; margin-bottom:4px;">
+                <i class="fas fa-user-graduate" style="color:#2563EB;"></i> Seguimiento a Graduados (SIGA Egresados)
+            </strong>
+            <p style="font-size:0.77rem; color:#1E40AF; margin:0; line-height:1.45;">
+                Articulado con el Servicio Público de Empleo (SPE), carnet digital, beneficios de educación continua y observatorio de empleabilidad OLE.
+            </p>
+        </div>
+    </div>
+</div>
+
 <div style="background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #F39200; border-radius:12px; padding:20px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
     <h5 style="font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0 0 12px;">
         <i class="fas fa-calendar-alt" style="color:#F39200; margin-right:6px;"></i> Tabla No. 56 del Documento Maestro: Plan Estratégico de Vinculación con el Sector Externo a 7 Años (Años 1 a 7)

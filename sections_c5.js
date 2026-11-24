@@ -57,6 +57,82 @@ window.SECTIONS['c5'] = `
 </div>
 
 <!-- TABLA 54 DEL DOCUMENTO MAESTRO: 3 LÍNEAS DE INVESTIGACIÓN Y 15 TEMÁTICAS OFICIALES -->
+
+<!-- PLAN MAESTRO DE INVESTIGACIÓN A 7 AÑOS ($472M) Y SEMILLERO INNOVMARKET -->
+<div style="background:#F8FAFC; border:1px solid #CBD5E1; border-top:4px solid #0077B6; border-radius:10px; padding:20px; margin-bottom:24px; box-shadow:0 3px 12px rgba(0,0,0,0.04);">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px; border-bottom:1px solid #E2E8F0; padding-bottom:10px;">
+        <h5 style="font-family:'Montserrat',sans-serif; font-size:1rem; font-weight:800; color:#0F172A; margin:0; display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-microscope" style="color:#0077B6;"></i> Plan Maestro de Investigación, Innovación y Creación (2026–2032)
+        </h5>
+        <span style="background:#E0F2FE; color:#0369A1; font-size:0.75rem; font-weight:800; padding:4px 12px; border-radius:12px; border:1px solid #BAE6FD;">
+            Inversión Garantizada: $472.000.000 COP
+        </span>
+    </div>
+
+    <div style="overflow-x:auto; border:1px solid #E2E8F0; border-radius:8px; margin-bottom:16px;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.79rem; text-align:left;">
+            <thead style="background:#0F172A; color:#FFFFFF;">
+                <tr>
+                    <th style="padding:9px 12px;">Programa / Eje</th>
+                    <th style="padding:9px 12px;">Objetivo Estratégico</th>
+                    <th style="padding:9px 12px;">Meta Cuantificable (7 Años)</th>
+                    <th style="padding:9px 12px;">Indicador</th>
+                    <th style="padding:9px 12px;">Presupuesto (COP)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-bottom:1px solid #E2E8F0; background:#FFFFFF;">
+                    <td style="padding:9px 12px; font-weight:700;">1. Proyectos I+D+i Aplicados a MiPymes</td>
+                    <td style="padding:9px 12px;">Desarrollar soluciones MarTech para la digitalización del comercio santandereano.</td>
+                    <td style="padding:9px 12px;">14 proyectos institucionales (2 por año).</td>
+                    <td style="padding:9px 12px;">Proyectos ejecutados / planificados</td>
+                    <td style="padding:9px 12px; font-weight:800; color:#0077B6;">$195.000.000</td>
+                </tr>
+                <tr style="border-bottom:1px solid #E2E8F0; background:#F8FAFC;">
+                    <td style="padding:9px 12px; font-weight:700;">2. Semillero INNOVMARKET y Formación</td>
+                    <td style="padding:9px 12px;">Vincular al 15% de los estudiantes presenciales y virtuales a la investigación formativa.</td>
+                    <td style="padding:9px 12px;">4 cohortes de semilleristas, 28 ponencias en RedCOLSI.</td>
+                    <td style="padding:9px 12px;">Estudiantes activos / total</td>
+                    <td style="padding:9px 12px; font-weight:800; color:#0077B6;">$92.000.000</td>
+                </tr>
+                <tr style="border-bottom:1px solid #E2E8F0; background:#FFFFFF;">
+                    <td style="padding:9px 12px; font-weight:700;">3. Producción Científica</td>
+                    <td style="padding:9px 12px;">Publicar en revistas indexadas Publindex/Scopus y libros de investigación.</td>
+                    <td style="padding:9px 12px;">14 artículos científicos, 1 libro de investigación y 4 capítulos.</td>
+                    <td style="padding:9px 12px;">Productos MinCiencias</td>
+                    <td style="padding:9px 12px; font-weight:800; color:#0077B6;">$115.000.000</td>
+                </tr>
+                <tr style="background:#F8FAFC;">
+                    <td style="padding:9px 12px; font-weight:700;">4. Redes, CUEES y Eventos</td>
+                    <td style="padding:9px 12px;">Participar activamente en mesas de CUEES Santander, RELAYN y ALAFEC.</td>
+                    <td style="padding:9px 12px;">14 participaciones en eventos y 2 congresos propios.</td>
+                    <td style="padding:9px 12px;">Actas y memorias</td>
+                    <td style="padding:9px 12px; font-weight:800; color:#0077B6;">$70.000.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+        <div style="background:#FFFFFF; border:1px solid #CBD5E1; border-left:4px solid #F39200; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#1A1A1B; display:block; margin-bottom:4px;">
+                <i class="fas fa-users-gear" style="color:#F39200;"></i> Semillero INNOVMARKET (Presencial & Virtual)
+            </strong>
+            <p style="font-size:0.77rem; color:#475569; margin:0; line-height:1.45;">
+                Sesiones quincenales sincrónicas por Teams con repositorio en Moodle. Líneas: 1) Analítica del Consumidor; 2) MarTech para MiPymes; 3) Ética en IA.
+            </p>
+        </div>
+        <div style="background:#FFFFFF; border:1px solid #CBD5E1; border-left:4px solid #10B981; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#1A1A1B; display:block; margin-bottom:4px;">
+                <i class="fas fa-building-columns" style="color:#10B981;"></i> Grupo COLLEGIUM (MinCiencias COL0084321)
+            </strong>
+            <p style="font-size:0.77rem; color:#475569; margin:0; line-height:1.45;">
+                Grupo categorizado que articula a los docentes de tiempo completo del programa, con asignación contractual de 6 a 10 h/semana dedicadas a investigación.
+            </p>
+        </div>
+    </div>
+</div>
+
 <div style="background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #F39200; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
     <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 12px;">
         <i class="fas fa-table" style="color:#F39200; margin-right:6px;"></i> Tabla No. 54 del Documento Maestro: Líneas de Investigación y Temáticas Oficiales del Programa de Marketing Digital

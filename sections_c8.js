@@ -30,12 +30,22 @@ window.SECTIONS['c8'] = `
     </div>
 </div>
 
+<!-- FE DE ERRATAS EXPRESA (TABLA 52) Y DETALLE E-LIBRO / AWS CLOUD -->
+<div style="background:#FEFCBF; border:1px solid #F59E0B; border-left:5px solid #D97706; border-radius:8px; padding:14px 18px; margin-bottom:20px;">
+    <div style="font-weight:800; color:#78350F; font-size:0.86rem; margin-bottom:4px;">
+        <i class="fas fa-triangle-exclamation"></i> Fe de Erratas Material Expresa: Mención Aislada a «Educación Infantil»
+    </div>
+    <p style="font-size:0.8rem; color:#92400E; line-height:1.5; margin:0; font-family:'Open Sans',sans-serif;">
+        Se aclara de manera formal que la mención aislada en una celda de la Tabla 52 del Documento Maestro a <em>«Licenciatura en Educación Infantil»</em> obedeció a un <strong>error involuntario de transcripción</strong> derivado del formato institucional estándar de autoevaluación. <strong>El 100% del expediente radicado, las 48 asignaturas, los 26 RAPs, la biblioteca e-Libro (+4.200 títulos específicos en mercadeo y TIC), el software Adobe Creative Cloud y los laboratorios corresponden estricta y exclusivamente al programa de Marketing Digital.</strong>
+    </p>
+</div>
+
 <!-- 4 TARJETAS DE RECURSOS CLAVE -->
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(215px, 1fr)); gap:14px; margin-bottom:20px;">
     <div style="background:#FFF7ED; border:1.5px solid #FED7AA; border-top:4px solid #F39200; border-radius:10px; padding:14px;">
         <div style="font-size:0.68rem; font-weight:800; color:#C2410C; text-transform:uppercase;">Biblioteca Digital e-Libro (Anexo 21)</div>
         <div style="font-family:'Montserrat',sans-serif; font-size:1.45rem; font-weight:900; color:#1A1A1B;">98.222 Títulos</div>
-        <div style="font-size:0.72rem; color:#9A3412;">515 editoriales · +75.674 autores · +32.500 textos completos + Dialnet, SciELO, CLACSO</div>
+        <div style="font-size:0.72rem; color:#9A3412;">+4.200 títulos específicos en Marketing, Analítica y TIC · 515 editoriales · +75.674 autores · Descarga offline</div>
     </div>
     <div style="background:#FFF1F2; border:1.5px solid #FECDD3; border-top:4px solid #C8102E; border-radius:10px; padding:14px;">
         <div style="font-size:0.68rem; font-weight:800; color:#9F1239; text-transform:uppercase;">Colección Física Especializada</div>
@@ -52,6 +62,13 @@ window.SECTIONS['c8'] = `
         <div style="font-family:'Montserrat',sans-serif; font-size:1.45rem; font-weight:900; color:#166534;">50 Equipos + AV</div>
         <div style="font-size:0.72rem; color:#15803D;">Aula de Ingenierías (30 eq.), Aula Móvil (20 eq.), 11 TV gran formato, cámaras C920 y audio</div>
     </div>
+</div>
+
+<div style="background:#F0FDF4; border:1px solid #BBF7D0; border-left:4px solid #16A34A; border-radius:8px; padding:12px 16px; margin-bottom:18px; font-size:0.8rem; color:#14532D; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+    <div>
+        <strong><i class="fas fa-cloud"></i> Infraestructura Cloud Elástica (AWS EC2 + Aurora RDS):</strong> Campus Virtual Moodle TO 4.5.5 con balanceador elástico, SLA de 99.9% y capacidad probada de <strong>1.200 usuarios concurrentes simultáneos</strong> para soportar la matrícula proyectada sin latencia.
+    </div>
+    <span style="background:#DCFCE7; color:#166534; font-weight:800; font-size:0.72rem; padding:3px 8px; border-radius:10px;">1.200 Usuarios Concurrentes</span>
 </div>
 
 <!-- TABLAS 68 Y 69 DEL DOCUMENTO MAESTRO EN PARALELO -->

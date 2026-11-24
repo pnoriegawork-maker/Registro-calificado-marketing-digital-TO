@@ -58,6 +58,93 @@ window.SECTIONS['c7'] = `
 </div>
 
 <!-- TABLA 57 DEL DOCUMENTO MAESTRO / TABLAS 5 Y 6 DE COMPLETITUD: PLANTA DOCENTE INICIAL POR MODALIDAD -->
+
+<!-- DEDICACIÓN DOCENTE 50/15/10/10/15, 13 HORAS DE FEEDBACK VIRTUAL Y ESCALAMIENTO A 23 PROFESORES -->
+<div style="background:#F8FAFC; border:1px solid #CBD5E1; border-top:4px solid #10B981; border-radius:10px; padding:20px; margin-bottom:24px; box-shadow:0 3px 12px rgba(0,0,0,0.04);">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:10px;">
+        <h5 style="font-family:'Montserrat',sans-serif; font-size:1rem; font-weight:800; color:#0F172A; margin:0; display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-clock" style="color:#10B981;"></i> Modelo de Dedicación 50/15/10/10/15, 13h Semanales de Feedback y Razón 1:23
+        </h5>
+        <span style="background:#DCFCE7; color:#166534; font-size:0.75rem; font-weight:800; padding:4px 12px; border-radius:12px; border:1px solid #BBF7D0;">
+            100% Posgrado · Escalamiento a 23 Docentes
+        </span>
+    </div>
+
+    <!-- Desglose Horario 50/15/10/10/15 -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:10px; font-size:0.78rem; margin-bottom:16px;">
+        <div style="background:#FFFFFF; border-top:3px solid #0077B6; padding:10px; border-radius:4px; border-left:1px solid #E2E8F0; border-right:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0;">
+            <strong style="color:#0077B6; display:block;">Docencia: 50% (20h)</strong>
+            12h mediadas en plataforma + 8h calificación cualitativa con rúbricas.
+        </div>
+        <div style="background:#FFFFFF; border-top:3px solid #F39200; padding:10px; border-radius:4px; border-left:1px solid #E2E8F0; border-right:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0;">
+            <strong style="color:#F39200; display:block;">Feedback: 13h / Sem</strong>
+            8h calificación + 5h foros de debate y tutorías personalizadas.
+        </div>
+        <div style="background:#FFFFFF; border-top:3px solid #10B981; padding:10px; border-radius:4px; border-left:1px solid #E2E8F0; border-right:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0;">
+            <strong style="color:#10B981; display:block;">Investigación: 15% (6h)</strong>
+            Tutoría Semillero INNOVMARKET y proyectos COLLEGIUM.
+        </div>
+        <div style="background:#FFFFFF; border-top:3px solid #E53E3E; padding:10px; border-radius:4px; border-left:1px solid #E2E8F0; border-right:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0;">
+            <strong style="color:#E53E3E; display:block;">Proyección: 10% (4h)</strong>
+            Asesoría técnica en Consultorio CIDRE y convenios sectoriales.
+        </div>
+        <div style="background:#FFFFFF; border-top:3px solid #8B5CF6; padding:10px; border-radius:4px; border-left:1px solid #E2E8F0; border-right:1px solid #E2E8F0; border-bottom:1px solid #E2E8F0;">
+            <strong style="color:#8B5CF6; display:block;">Gestión & AVA: 25% (10h)</strong>
+            Seguimiento de permanencia en SIGA y cualificación tecno-pedagógica.
+        </div>
+    </div>
+
+    <!-- Escalamiento a 7 Años -->
+    <div style="overflow-x:auto; border:1px solid #E2E8F0; border-radius:8px;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.78rem; text-align:center;">
+            <thead style="background:#0F172A; color:#FFFFFF;">
+                <tr>
+                    <th style="padding:8px; text-align:left;">Año de Operación</th>
+                    <th style="padding:8px;">Presencial (TC/MT)</th>
+                    <th style="padding:8px;">Virtual (TC/MT)</th>
+                    <th style="padding:8px;">Total Docentes</th>
+                    <th style="padding:8px;">Horas/Semana</th>
+                    <th style="padding:8px;">Nivel Posgrado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-bottom:1px solid #E2E8F0; background:#FFFFFF;">
+                    <td style="padding:8px; text-align:left; font-weight:700;">Año 1 (2026-2027)</td>
+                    <td style="padding:8px;">5 TC</td>
+                    <td style="padding:8px;">5 TC + 1 MT</td>
+                    <td style="padding:8px; font-weight:800; color:#F39200;">11 Docentes</td>
+                    <td style="padding:8px;">422 horas</td>
+                    <td style="padding:8px;">9 Mg. + 2 Dr.</td>
+                </tr>
+                <tr style="border-bottom:1px solid #E2E8F0; background:#F8FAFC;">
+                    <td style="padding:8px; text-align:left; font-weight:700;">Año 3 (2028-2029)</td>
+                    <td style="padding:8px;">7 TC + 1 MT</td>
+                    <td style="padding:8px;">6 TC + 1 MT</td>
+                    <td style="padding:8px; font-weight:800; color:#F39200;">15 Docentes</td>
+                    <td style="padding:8px;">564 horas</td>
+                    <td style="padding:8px;">12 Mg. + 3 Dr.</td>
+                </tr>
+                <tr style="border-bottom:1px solid #E2E8F0; background:#FFFFFF;">
+                    <td style="padding:8px; text-align:left; font-weight:700;">Año 5 (2030-2031)</td>
+                    <td style="padding:8px;">8 TC + 2 MT</td>
+                    <td style="padding:8px;">8 TC + 1 MT</td>
+                    <td style="padding:8px; font-weight:800; color:#F39200;">19 Docentes</td>
+                    <td style="padding:8px;">706 horas</td>
+                    <td style="padding:8px;">15 Mg. + 4 Dr.</td>
+                </tr>
+                <tr style="background:#FFF7ED;">
+                    <td style="padding:8px; text-align:left; font-weight:800; color:#C2410C;">Año 7 (Consolidación)</td>
+                    <td style="padding:8px; font-weight:700;">10 TC + 2 MT</td>
+                    <td style="padding:8px; font-weight:700;">9 TC + 2 MT</td>
+                    <td style="padding:8px; font-weight:900; color:#C2410C;">23 Docentes</td>
+                    <td style="padding:8px; font-weight:800;">848 horas</td>
+                    <td style="padding:8px; font-weight:800; color:#15803D;">19 Mg. + 4 Dr. (100% Posgrado)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <div style="background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #F39200; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
     <h5 style="font-family:'Montserrat',sans-serif; font-size:0.96rem; font-weight:800; color:#1A1A1B; margin:0 0 12px;">
         <i class="fas fa-users" style="color:#F39200; margin-right:6px;"></i> Tabla No. 48/57 del Documento Maestro y Tablas 5 y 6 de Completitud: Profesores Vinculados por Modalidad y Distribución Horaria Semanal

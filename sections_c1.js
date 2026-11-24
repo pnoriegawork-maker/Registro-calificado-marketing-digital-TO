@@ -336,6 +336,82 @@ window.SECTIONS['c1'] = `
             </div>
         </div>
 
+        
+        <!-- FUNDAMENTACIÓN EPISTEMOLÓGICA DE LA TITULACIÓN Y BENCHMARKING INTERNACIONAL (AMA / CIM / DMI / CINE-F 0414) -->
+        <div style="background:#F8FAFC; border:1px solid #CBD5E1; border-top:4px solid #0077B6; border-radius:10px; padding:18px 20px; margin-bottom:22px; box-shadow:0 3px 12px rgba(0,0,0,0.04);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:10px;">
+                <h5 style="font-family:'Montserrat',sans-serif; font-size:0.98rem; font-weight:800; color:#0F172A; margin:0; display:flex; align-items:center; gap:8px;">
+                    <i class="fas fa-graduation-cap" style="color:#0077B6;"></i> Fundamentación Epistemológica de la Titulación «Profesional en Marketing Digital» y Benchmarking Internacional
+                </h5>
+                <span style="background:#E0F2FE; color:#0369A1; font-size:0.72rem; font-weight:800; padding:3px 10px; border-radius:12px; border:1px solid #BAE6FD;">
+                    AMA · CIM · DMI · MNC Nivel 7
+                </span>
+            </div>
+            <p style="font-size:0.83rem; color:#334155; line-height:1.55; margin:0 0 14px; font-family:'Open Sans',sans-serif;">
+                La titulación de <strong>Profesional en Marketing Digital</strong> no constituye una mera derivación de perfiles ocupacionales, sino que responde a la consolidación del mercadeo digital como un <strong>campo autónomo de conocimiento científico y profesional</strong> reconocido por las agremiaciones internacionales y marcos de cualificación de educación superior:
+            </p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px; margin-bottom:16px;">
+                <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <strong style="font-size:0.8rem; color:#0077B6; display:block; margin-bottom:4px;"><i class="fas fa-certificate"></i> American Marketing Association (AMA)</strong>
+                    <div style="font-size:0.76rem; color:#475569; line-height:1.45;">
+                        Define el Marketing Digital como una disciplina integral que trasciende la pauta publicitaria para articular analítica predictiva, arquitectura de conversión (CRO), automatización multicanal y ética en el tratamiento algorítmico de datos.
+                    </div>
+                </div>
+                <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <strong style="font-size:0.8rem; color:#2563EB; display:block; margin-bottom:4px;"><i class="fas fa-landmark"></i> Chartered Institute of Marketing (CIM - UK)</strong>
+                    <div style="font-size:0.76rem; color:#475569; line-height:1.45;">
+                        Establece el marco profesional de <em>Digital Marketing Professional</em>, validando que el cuerpo de conocimientos contemporáneo exige competencias matemáticas, computacionales y estratégicas diferenciadas del mercadeo tradicional.
+                    </div>
+                </div>
+                <div style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:8px; padding:12px;">
+                    <strong style="font-size:0.8rem; color:#059669; display:block; margin-bottom:4px;"><i class="fas fa-laptop-code"></i> Digital Marketing Institute (DMI - Global)</strong>
+                    <div style="font-size:0.76rem; color:#475569; line-height:1.45;">
+                        Estándar global de certificación universitaria que homologa el plan curricular en 8 dominios fundamentales: MarTech, SEO/SEM, Social Media, Content Strategy, UX/UI, Analítica, E-commerce y Estrategia Digital.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabla Benchmarking de Titulaciones -->
+            <div style="overflow-x:auto; border:1px solid #E2E8F0; border-radius:8px;">
+                <table style="width:100%; border-collapse:collapse; font-size:0.78rem; text-align:left;">
+                    <thead style="background:#0F172A; color:#FFFFFF;">
+                        <tr>
+                            <th style="padding:8px 10px;">Institución / País</th>
+                            <th style="padding:8px 10px;">Denominación Académica</th>
+                            <th style="padding:8px 10px;">Título Oficial Otorgado</th>
+                            <th style="padding:8px 10px;">Correspondencia Disciplinar con la TO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid #E2E8F0; background:#FFFFFF;">
+                            <td style="padding:8px 10px; font-weight:700;">Universidad Nebrija (España)</td>
+                            <td style="padding:8px 10px;">Grado en Marketing Digital</td>
+                            <td style="padding:8px 10px; color:#0369A1; font-weight:700;">Graduado/a en Marketing Digital</td>
+                            <td style="padding:8px 10px; color:#475569;">Homólogo directo en Europa (240 ECTS): analítica, MarTech y gestión de plataformas digitales.</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #E2E8F0; background:#F8FAFC;">
+                            <td style="padding:8px 10px; font-weight:700;">Universidad Rey Juan Carlos (España)</td>
+                            <td style="padding:8px 10px;">Grado en Marketing</td>
+                            <td style="padding:8px 10px; color:#0369A1; font-weight:700;">Graduado/a en Marketing</td>
+                            <td style="padding:8px 10px; color:#475569;">Énfasis en comercio digital y comportamiento del consumidor en redes hipermediales.</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid #E2E8F0; background:#FFFFFF;">
+                            <td style="padding:8px 10px; font-weight:700;">Politécnico Grancolombiano (Colombia)</td>
+                            <td style="padding:8px 10px;">Mercadeo y Publicidad</td>
+                            <td style="padding:8px 10px; color:#0369A1; font-weight:700;">Profesional en Mercadeo y Publicidad</td>
+                            <td style="padding:8px 10px; color:#475569;">TO supera la dualidad publicitaria tradicional focalizando 72,9% del plan en MarTech e IA.</td>
+                        </tr>
+                        <tr style="background:#FFF7ED;">
+                            <td style="padding:8px 10px; font-weight:800; color:#C2410C;">Corporación Escuela Tecnológica del Oriente (TO)</td>
+                            <td style="padding:8px 10px; font-weight:800; color:#0F172A;">Marketing Digital</td>
+                            <td style="padding:8px 10px; font-weight:800; color:#C2410C;">Profesional en Marketing Digital</td>
+                            <td style="padding:8px 10px; font-weight:700; color:#15803D;">Registro Único (Presencial-Virtual) · 144 Cr · Acuerdo CS No. 03 de 2026. Plena consistencia legal.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <!-- TABLA 2 DOCUMENTO MAESTRO: CLASIFICACIONES INTERNACIONALES Y NACIONALES -->
         <h5 style="font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0 0 10px; display:flex; align-items:center; gap:8px;">
             <i class="fas fa-globe" style="color:#F39200;"></i> Tabla No. 2 del Documento Maestro: Clasificación Taxonómica Internacional y Nacional (CINE-UNESCO, SNIES, CIUO, CUOC y CNO)
