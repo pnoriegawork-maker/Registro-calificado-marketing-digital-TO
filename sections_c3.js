@@ -618,7 +618,7 @@ window.SECTIONS['c3'] = `
                                 <i class="fas fa-laptop-code" style="color:#D97706; margin-right:6px;"></i> c) Flexibilidad en el Aprendizaje
                             </div>
                             <p style="font-size:0.82rem; color:#92400E; line-height:1.55; margin:0;">
-                                El estudiante elige formas, espacios académicos y momentos de estudio en función de sus requerimientos personales y laborales, respaldado por la mediación tecnológica en <strong>Moodle 4.5.5</strong> y el ecosistema <strong>TecnoMod</strong>.
+                                El estudiante elige formas, espacios académicos y momentos de estudio en función de sus requerimientos personales y laborales, respaldado por la mediación tecnológica en <strong>Moodle 5.2</strong> y el ecosistema <strong>TecnoMod</strong>.
                             </p>
                         </div>
 
@@ -1475,7 +1475,7 @@ window.SECTIONS['c3'] = `
                         e) Mecanismos de Evaluación · Sistema Socioformativo y Seguimiento a Resultados de Aprendizaje
                     </h3>
                     <p style="font-size:0.83rem; color:#CBD5E1; margin:0; max-width:850px; line-height:1.5;">
-                        <strong>Evaluación integral y formativa:</strong> Articulación de rúbricas analíticas socioformativas, ponderación institucional por cortes (20%, 25%, 55%), evaluación tripartita y trazabilidad tecnopedagógica en LMS Moodle 4.5.5.
+                        <strong>Evaluación integral y formativa:</strong> Articulación de rúbricas analíticas socioformativas, ponderación institucional por cortes (20%, 25%, 55%), evaluación tripartita y trazabilidad tecnopedagógica en LMS Moodle 5.2.
                     </p>
                 </div>
                 <div style="display:flex; gap:8px;">
@@ -1627,7 +1627,7 @@ window.SECTIONS['c3'] = `
             <!-- LMS Moodle -->
             <div class="card" style="border-top:4px solid #16A34A;">
                 <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:800; color:var(--dark); margin:0 0 10px 0;">
-                    <i class="fas fa-laptop" style="color:#16A34A; margin-right:6px;"></i> 3. Trazabilidad Tecnológica en LMS Moodle 4.5.5
+                    <i class="fas fa-laptop" style="color:#16A34A; margin-right:6px;"></i> 3. Trazabilidad Tecnológica en LMS Moodle 5.2
                 </h4>
                 <ul style="font-size:0.75rem; color:#475569; line-height:1.6; padding-left:18px; margin:0;">
                     <li><strong>Libro de Calificaciones Ponderado:</strong> Configuración matemática estricta por cortes oficiales (20%, 25%, 55%) visible para el estudiante en tiempo real.</li>

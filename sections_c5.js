@@ -1208,7 +1208,7 @@ window.SECTIONS['c5'] = `
                     <div style="background:#EFF6FF; border:1px solid #BFDBFE; border-radius:6px; padding:12px;">
                         <strong style="color:#1E40AF; font-size:0.8rem; display:block; margin-bottom:4px;">Modalidad Virtual Propuesta</strong>
                         <ul style="font-size:0.75rem; color:#1E3A8A; margin:0; padding-left:16px; line-height:1.45;">
-                            <li>Mediación tecnológica en Moodle 4.5.5 y Microsoft Teams.</li>
+                            <li>Mediación tecnológica en Moodle 5.2 y Microsoft Teams.</li>
                             <li>Semilleros virtuales con sesiones sincrónicas grabadas.</li>
                             <li>Proyectos aplicados orientados a las regiones de origen.</li>
                         </ul>

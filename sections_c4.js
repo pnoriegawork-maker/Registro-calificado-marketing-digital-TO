@@ -78,7 +78,7 @@ window.SECTIONS['c4'] = `
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px; margin-top:10px;">
             <div style="background:#FFFFFF; border:1px solid #FED7AA; padding:12px; border-radius:6px;">
                 <strong style="color:#C2410C; display:block; margin-bottom:4px;"><i class="fas fa-check-circle" style="color:#16A34A;"></i> 18 Asignaturas Listas (100% Virtualizadas)</strong>
-                Corresponden a los Semestres I, II y III (año y medio de operación garantizado). Activas en Moodle AWS 4.5.5, con credenciales de auditoría CONACES: Usuario: <code>marketing</code> / Contraseña: <code>Marketing2025*</code>.
+                Corresponden a los Semestres I, II y III (año y medio de operación garantizado). Activas en Moodle AWS 5.2, con credenciales de auditoría CONACES: Usuario: <code>marketing</code> / Contraseña: <code>Marketing2025*</code>.
             </div>
             <div style="background:#FFFFFF; border:1px solid #FED7AA; padding:12px; border-radius:6px;">
                 <strong style="color:#C2410C; display:block; margin-bottom:4px;"><i class="fas fa-clock" style="color:#F39200;"></i> 30 Asignaturas en Producción ADDIE</strong>

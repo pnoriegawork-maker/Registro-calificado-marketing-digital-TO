@@ -19,7 +19,7 @@ window.SECTIONS['c8'] = `
                 <i class="fas fa-laptop-file" style="color:#F39200;"></i> Medios Educativos y Plataformas Tecnológicas
             </h4>
             <p style="color:#D1D1D1; font-size:0.85rem; margin:0; line-height:1.45;">
-                Ecosistema integral de medios educativos para el programa de <strong>Marketing Digital</strong>: Campus Virtual Moodle 4.5.5 en AWS Cloud, SIGA Datasae, Microsoft 365, Biblioteca Digital e-Libro Cátedra (98.222 títulos) y CRM de servicio al cliente con 962 casos resueltos.
+                Ecosistema integral de medios educativos para el programa de <strong>Marketing Digital</strong>: Campus Virtual Moodle 5.2 en AWS Cloud, SIGA Datasae, Microsoft 365, Biblioteca Digital e-Libro Cátedra (98.222 títulos) y CRM de servicio al cliente con 962 casos resueltos.
             </p>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap;">
@@ -27,7 +27,7 @@ window.SECTIONS['c8'] = `
                 <i class="fas fa-file-pdf"></i> Anexo 21: e-Libro Cátedra
             </a>
             <a href="https://campusvirtual.tecnologicadeloriente.edu.co" target="_blank" style="background:rgba(255,255,255,0.1); color:#FFFFFF; border:1px solid rgba(255,255,255,0.3); text-decoration:none; font-weight:700; padding:5px 12px; border-radius:20px; font-size:0.74rem;">
-                <i class="fas fa-external-link-alt"></i> Campus Moodle 4.5.5
+                <i class="fas fa-external-link-alt"></i> Campus Moodle 5.2
             </a>
         </div>
     </div>
@@ -47,7 +47,7 @@ window.SECTIONS['c8'] = `
             <i class="fas fa-book-reader" style="color:#F39200;"></i> 2. Biblioteca Digital e-Libro & SIGA
         </button>
         <button onclick="switchC8Eje(3)" data-c8-eje="3" class="c8-eje-btn " style="background:#FFFFFF; color:#4A4A4A; border:1px solid #E2E8F0; padding:6px 12px; border-radius:20px; font-size:0.72rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:5px; transition:all 0.2s;">
-            <i class="fas fa-laptop-code" style="color:#F39200;"></i> 3. Moodle 4.5.5, Microsoft 365 & CRM
+            <i class="fas fa-laptop-code" style="color:#F39200;"></i> 3. Moodle 5.2, Microsoft 365 & CRM
         </button>
         <button onclick="switchC8Eje(4)" data-c8-eje="4" class="c8-eje-btn " style="background:#FFFFFF; color:#4A4A4A; border:1px solid #E2E8F0; padding:6px 12px; border-radius:20px; font-size:0.72rem; font-weight:700; cursor:pointer; display:inline-flex; align-items:center; gap:5px; transition:all 0.2s;">
             <i class="fas fa-cloud" style="color:#F39200;"></i> 4. Capacitación, ITIL & Cloud AWS
@@ -174,7 +174,7 @@ window.SECTIONS['c8'] = `
                     </div>
                     <div style="background:#F8FAFC; border-left:4px solid #2563EB; padding:12px; border-radius:6px;">
                         <span style="font-size:0.7rem; color:#64748B; font-weight:800; text-transform:uppercase;">LMS Institucional</span>
-                        <div style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:2px 0;">Moodle 4.5.5</div>
+                        <div style="font-size:1.05rem; font-weight:800; color:#1A1A1B; margin:2px 0;">Moodle 5.2</div>
                         <span style="font-size:0.73rem; color:#475569;">AWS Cloud · SLA 99.9% · 1.200 Usuarios Concurrentes</span>
                     </div>
                     <div style="background:#F8FAFC; border-left:4px solid #10B981; padding:12px; border-radius:6px;">
@@ -343,7 +343,7 @@ window.SECTIONS['c8'] = `
                     </div>
                     <div style="background:#F8FAFC; border:1px solid #CBD5E1; padding:10px; border-radius:6px;">
                         <strong style="color:#0F172A; font-size:0.8rem; display:block;">Campus Virtual</strong>
-                        <span style="font-size:0.74rem; color:#64748B;">LMS Moodle 4.5.5 para modalidad virtual y presencial.</span>
+                        <span style="font-size:0.74rem; color:#64748B;">LMS Moodle 5.2 para modalidad virtual y presencial.</span>
                     </div>
                     <div style="background:#F8FAFC; border:1px solid #CBD5E1; padding:10px; border-radius:6px;">
                         <strong style="color:#0F172A; font-size:0.8rem; display:block;">CRM Servicio</strong>
@@ -640,12 +640,12 @@ window.SECTIONS['c8'] = `
                 <div>
                     <div style="display:flex; align-items:center; gap:8px; margin-bottom:2px;">
                         <span style="background:rgba(243,146,0,0.15); color:#F39200; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase;">
-                            3. Moodle 4.5.5, Microsoft 365 & CRM
+                            3. Moodle 5.2, Microsoft 365 & CRM
                         </span>
                         <span style="color:#64748B; font-size:0.72rem; font-weight:700;">Diapositiva 10 de 19</span>
                     </div>
                     <h4 style="font-family:'Montserrat',sans-serif; font-size:1.1rem; font-weight:800; color:#1A1A1B; margin:0;">
-                        Campus Virtual LMS Moodle 4.5.5
+                        Campus Virtual LMS Moodle 5.2
                     </h4>
                     <p style="font-size:0.76rem; color:#64748B; margin:2px 0 0;">Herramienta central para la gestión del aprendizaje, seguimiento y contenidos alineados al PEI</p>
                 </div>
@@ -694,7 +694,7 @@ window.SECTIONS['c8'] = `
                 <div>
                     <div style="display:flex; align-items:center; gap:8px; margin-bottom:2px;">
                         <span style="background:rgba(243,146,0,0.15); color:#F39200; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase;">
-                            3. Moodle 4.5.5, Microsoft 365 & CRM
+                            3. Moodle 5.2, Microsoft 365 & CRM
                         </span>
                         <span style="color:#64748B; font-size:0.72rem; font-weight:700;">Diapositiva 11 de 19</span>
                     </div>
@@ -745,7 +745,7 @@ window.SECTIONS['c8'] = `
                 <div>
                     <div style="display:flex; align-items:center; gap:8px; margin-bottom:2px;">
                         <span style="background:rgba(243,146,0,0.15); color:#F39200; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase;">
-                            3. Moodle 4.5.5, Microsoft 365 & CRM
+                            3. Moodle 5.2, Microsoft 365 & CRM
                         </span>
                         <span style="color:#64748B; font-size:0.72rem; font-weight:700;">Diapositiva 12 de 19</span>
                     </div>
@@ -796,7 +796,7 @@ window.SECTIONS['c8'] = `
                 <div>
                     <div style="display:flex; align-items:center; gap:8px; margin-bottom:2px;">
                         <span style="background:rgba(243,146,0,0.15); color:#F39200; font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase;">
-                            3. Moodle 4.5.5, Microsoft 365 & CRM
+                            3. Moodle 5.2, Microsoft 365 & CRM
                         </span>
                         <span style="color:#64748B; font-size:0.72rem; font-weight:700;">Diapositiva 13 de 19</span>
                     </div>
