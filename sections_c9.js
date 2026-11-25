@@ -1,8 +1,8 @@
 /* =========================================================
    CONDICIÓN 9 – INFRAESTRUCTURA FÍSICA Y TECNOLÓGICA
    Marketing Digital · Registro Calificado Nuevo · Registro Único (Presencial & Virtual) · TO
-   Fuentes Oficiales: Documento Maestro Cap. 9 (Tablas 70 a 74), Respuesta Completitud Obs. 5
-   y Anexos 22, 23, 24 y 25 (Contratos y Licencias Sedes A, B y C)
+   Fuentes Oficiales: Presentación Oficial "CONDICIÓN 9. INFRAESTRUCTURA Y TECNOLOG.pptx" (27 diapositivas),
+   Documento Maestro Cap. 9 (Tablas 55 y 56), Plan de Mantenimiento e Inversión y Matriz de Espacios
    ========================================================= */
 window.SECTIONS = window.SECTIONS || {};
 window.SECTIONS['c9'] = `
@@ -11,180 +11,270 @@ window.SECTIONS['c9'] = `
         <div>
             <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
                 <span style="background:#F39200; color:#FFFFFF; font-size:0.7rem; font-weight:800; padding:2px 8px; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">
-                    Condición de Programa 9 · Programa Nuevo
+                    Condición de Programa 9 · Registro Único (Presencial - Virtual)
                 </span>
-                <span style="color:#D1D1D1; font-size:0.75rem;">Decreto 1330 de 2019 · Tablas No. 70 a 74 del Documento Maestro · Anexos 22 a 25</span>
+                <span style="color:#D1D1D1; font-size:0.75rem;">Decreto 1330 de 2019 · Tablas 55 y 56 DM · Registro SACES RD32850</span>
             </div>
             <h4 style="font-family:'Montserrat',sans-serif; font-size:1.25rem; font-weight:800; color:#FFFFFF; margin:0 0 4px; display:flex; align-items:center; gap:10px;">
-                <i class="fas fa-building" style="color:#F39200;"></i> Infraestructura Física y Tecnológica: Sedes A, B y C y Arquitectura Cloud
+                <i class="fas fa-building" style="color:#F39200;"></i> Infraestructura Física y Tecnológica
             </h4>
             <p style="color:#D1D1D1; font-size:0.85rem; margin:0; line-height:1.45;">
-                Capacidad física instalada en Bucaramanga de <strong>7.679,25 m² construidos, 68 espacios académicos y administrativos y 1.905 puestos simultáneos por jornada</strong> en las Sedes A, B y C (Anexos 22 a 25), complementada con conectividad dedicada por fibra óptica Claro (100 Mbps / 300 Mbps) y servidores en <strong>Amazon Web Services (AWS) y Microsoft Azure</strong>.
+                Infraestructura dispuesta por la <strong>Corporación Escuela Tecnológica del Oriente (TO)</strong> en Bucaramanga: <strong>tres (3) sedes estratégicas interconectadas</strong> (7.679 m² y 68 espacios físicos totales), aulas modernas dotadas, sala de cómputo, aula móvil (HP Probook 440 SSD 1TB RAM 32GB), auditorio institucional, enlaces de fibra simétrica y arquitectura elástica en AWS Cloud.
             </p>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap;">
-            <a href="assets/docs/Anexo_22_Contrato_Sede_A.pdf" target="_blank" style="background:rgba(243,146,0,0.22); color:#F39200; border:1px solid #F39200; text-decoration:none; font-weight:700; padding:5px 11px; border-radius:20px; font-size:0.73rem;">
+            <a href="assets/docs/Anexo_22_Contrato_Sede_A.pdf" target="_blank" style="background:rgba(243,146,0,0.22); color:#F39200; border:1px solid #F39200; text-decoration:none; font-weight:700; padding:5px 12px; border-radius:20px; font-size:0.74rem;">
                 <i class="fas fa-file-pdf"></i> Anexo 22: Sede A
             </a>
-            <a href="assets/docs/Anexo_23_Contrato_Sede_B.pdf" target="_blank" style="background:rgba(255,255,255,0.1); color:#FFFFFF; border:1px solid rgba(255,255,255,0.3); text-decoration:none; font-weight:700; padding:5px 11px; border-radius:20px; font-size:0.73rem;">
+            <a href="assets/docs/Anexo_23_Contrato_Sede_B.pdf" target="_blank" style="background:rgba(255,255,255,0.1); color:#FFFFFF; border:1px solid rgba(255,255,255,0.3); text-decoration:none; font-weight:700; padding:5px 12px; border-radius:20px; font-size:0.74rem;">
                 <i class="fas fa-file-pdf"></i> Anexo 23: Sede B
             </a>
-            <a href="assets/docs/Anexo_24_Uso_Suelo_y_Licencia.pdf" target="_blank" style="background:rgba(255,255,255,0.1); color:#FFFFFF; border:1px solid rgba(255,255,255,0.3); text-decoration:none; font-weight:700; padding:5px 11px; border-radius:20px; font-size:0.73rem;">
-                <i class="fas fa-file-pdf"></i> Anexo 24: Uso de Suelo
+            <a href="assets/docs/Anexo_24_Uso_Suelo_y_Licencia.pdf" target="_blank" style="background:rgba(255,255,255,0.1); color:#FFFFFF; border:1px solid rgba(255,255,255,0.3); text-decoration:none; font-weight:700; padding:5px 12px; border-radius:20px; font-size:0.74rem;">
+                <i class="fas fa-file-pdf"></i> Anexo 24: Licencia
             </a>
         </div>
     </div>
 </div>
 
-<!-- 4 KPI DE INFRAESTRUCTURA FÍSICA Y TECNOLÓGICA (TABLA 70 DM) -->
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(215px, 1fr)); gap:14px; margin-bottom:20px;">
-    <div style="background:#FFF7ED; border:1.5px solid #FED7AA; border-top:4px solid #F39200; border-radius:10px; padding:14px;">
-        <div style="font-size:0.68rem; font-weight:800; color:#C2410C; text-transform:uppercase;">Área Total Construida (Tabla 70)</div>
-        <div style="font-family:'Montserrat',sans-serif; font-size:1.5rem; font-weight:900; color:#1A1A1B;">7.679,25 m²</div>
-        <div style="font-size:0.72rem; color:#9A3412;">Sede A (1.140,25 m²) + Sede B (6.135 m²) + Sede C (404 m²)</div>
+<!-- KPI Cards Infraestructura -->
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:12px; margin-bottom:20px;">
+    <div style="background:#FFFFFF; border-left:4px solid #F39200; border-radius:8px; padding:12px 14px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+        <span style="font-size:0.72rem; color:#6B7280; text-transform:uppercase; font-weight:700;">Sedes Bucaramanga</span>
+        <div style="font-size:1.35rem; font-weight:800; color:#1A1A1B; margin:2px 0;">3 Sedes Propias/Uso</div>
+        <span style="font-size:0.74rem; color:#F39200; font-weight:600;"><i class="fas fa-location-dot"></i> Sede A, Sede B y Sede C</span>
     </div>
-    <div style="background:#F0FDF4; border:1.5px solid #BBF7D0; border-top:4px solid #16A34A; border-radius:10px; padding:14px;">
-        <div style="font-size:0.68rem; font-weight:800; color:#15803D; text-transform:uppercase;">Capacidad Simultánea (3 Sedes)</div>
-        <div style="font-family:'Montserrat',sans-serif; font-size:1.5rem; font-weight:900; color:#166534;">1.905 Puestos</div>
-        <div style="font-size:0.72rem; color:#15803D;">En 68 espacios físicos (holgura plena para 140 cupos presenciales)</div>
+    <div style="background:#FFFFFF; border-left:4px solid #2563EB; border-radius:8px; padding:12px 14px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+        <span style="font-size:0.72rem; color:#6B7280; text-transform:uppercase; font-weight:700;">Área Total Construida</span>
+        <div style="font-size:1.35rem; font-weight:800; color:#1A1A1B; margin:2px 0;">7.679,25 m²</div>
+        <span style="font-size:0.74rem; color:#2563EB; font-weight:600;"><i class="fas fa-vector-square"></i> 68 Espacios Físicos Totales</span>
     </div>
-    <div style="background:#F8FAFC; border:1.5px solid #CBD5E1; border-top:4px solid #1A1A1B; border-radius:10px; padding:14px;">
-        <div style="font-size:0.68rem; font-weight:800; color:#1E293B; text-transform:uppercase;">Conectividad Fibra Óptica</div>
-        <div style="font-family:'Montserrat',sans-serif; font-size:1.5rem; font-weight:900; color:#1A1A1B;">100 / 300 Mbps</div>
-        <div style="font-size:0.72rem; color:#334155;">Canal dedicado Claro por fibra óptica + cobertura Wi-Fi institucional</div>
+    <div style="background:#FFFFFF; border-left:4px solid #10B981; border-radius:8px; padding:12px 14px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+        <span style="font-size:0.72rem; color:#6B7280; text-transform:uppercase; font-weight:700;">Capacidad Instalada</span>
+        <div style="font-size:1.35rem; font-weight:800; color:#1A1A1B; margin:2px 0;">1.905 Puestos</div>
+        <span style="font-size:0.74rem; color:#10B981; font-weight:600;"><i class="fas fa-users-viewfinder"></i> 23 Salones · 1 Auditorio</span>
     </div>
-    <div style="background:#FFF1F2; border:1.5px solid #FECDD3; border-top:4px solid #C8102E; border-radius:10px; padding:14px;">
-        <div style="font-size:0.68rem; font-weight:800; color:#9F1239; text-transform:uppercase;">Arquitectura Cloud Virtual</div>
-        <div style="font-family:'Montserrat',sans-serif; font-size:1.5rem; font-weight:900; color:#C8102E;">AWS &amp; Azure</div>
-        <div style="font-size:0.72rem; color:#9F1239;">Alta disponibilidad 24/7 (SLA 99,9%) para los 140 cupos virtuales</div>
+    <div style="background:#FFFFFF; border-left:4px solid #7C3AED; border-radius:8px; padding:12px 14px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+        <span style="font-size:0.72rem; color:#6B7280; text-transform:uppercase; font-weight:700;">Conectividad & Cloud</span>
+        <div style="font-size:1.35rem; font-weight:800; color:#1A1A1B; margin:2px 0;">Fibra + AWS Cloud</div>
+        <span style="font-size:0.74rem; color:#7C3AED; font-weight:600;"><i class="fas fa-network-wired"></i> 100/300 Mbps + Clúster AWS</span>
     </div>
 </div>
 
-<!-- TABLA 70 DEL DOCUMENTO MAESTRO: CAPACIDAD INSTALADA SEDES A, B Y C -->
+<!-- SECCIÓN 1: DISTRIBUCIÓN Y DESCRIPCIÓN DE LAS TRES SEDES (SLIDES 3 A 17 PPTX) -->
+<div style="background:#FFFFFF; border-radius:10px; border:1px solid #E5E7EB; padding:18px; margin-bottom:20px; box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+    <h5 style="color:#1A1A1B; font-weight:800; font-size:1.02rem; margin:0 0 12px; display:flex; align-items:center; gap:8px;">
+        <i class="fas fa-map-marked-alt" style="color:#F39200;"></i> 1. Distribución Estratégica de Sedes Institucionales en Bucaramanga
+    </h5>
+    
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:14px;">
+        <!-- Sede A -->
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px; border-top:3px solid #F39200;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <strong style="color:#1E293B; font-size:0.9rem;">SEDE A (Principal Administrativa)</strong>
+                <span style="background:#FEF3C7; color:#92400E; font-size:0.7rem; font-weight:800; padding:1px 6px; border-radius:4px;">1.140 m²</span>
+            </div>
+            <p style="font-size:0.75rem; color:#64748B; margin:0 0 8px;"><strong>Dirección:</strong> Calle 41 No. 10-30 · Zona céntrica e histórica de Bucaramanga.</p>
+            <ul style="font-size:0.75rem; color:#475569; margin:0; padding-left:18px; line-height:1.45;">
+                <li><strong>10 Salones de clase modernos</strong> con videoproyector y conectividad.</li>
+                <li><strong>Biblioteca física institucional</strong> y área común de sala de lectura.</li>
+                <li><strong>Sala de cómputo fija</strong> dotada para prácticas de analítica.</li>
+                <li><strong>Aula Móvil:</strong> 20 portátiles <strong>HP Probook 440 (SSD 1TB · RAM 32GB)</strong> de alto rendimiento.</li>
+                <li>Oficinas administrativas principales: Rectoría, Vicerrectoría y Secretaría General.</li>
+                <li>Cafetería, archivo institucional y batería de baños con acceso universal.</li>
+            </ul>
+        </div>
 
-<!-- ACCESIBILIDAD UNIVERSAL NTC 4143, CONCILIACIÓN DE CAPACIDAD SEDE A (304 VS 388) E INVERSIÓN $1.410M -->
-<div style="background:#F8FAFC; border:1px solid #CBD5E1; border-top:4px solid #0077B6; border-radius:10px; padding:20px; margin-bottom:24px; box-shadow:0 3px 12px rgba(0,0,0,0.04);">
-    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; border-bottom:1px solid #E2E8F0; padding-bottom:10px;">
-        <h5 style="font-family:'Montserrat',sans-serif; font-size:1rem; font-weight:800; color:#0F172A; margin:0; display:flex; align-items:center; gap:8px;">
-            <i class="fas fa-wheelchair" style="color:#0077B6;"></i> Accesibilidad Universal (Norma NTC 4143), Conciliación de Aforos e Inversión $1.410M
+        <!-- Sede B -->
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px; border-top:3px solid #2563EB;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <strong style="color:#1E293B; font-size:0.9rem;">SEDE B (Campus Docente & Eventos)</strong>
+                <span style="background:#DBEAFE; color:#1E40AF; font-size:0.7rem; font-weight:800; padding:1px 6px; border-radius:4px;">6.135 m²</span>
+            </div>
+            <p style="font-size:0.75rem; color:#64748B; margin:0 0 8px;"><strong>Dirección:</strong> Cra 10 No. 35-40 / Cra 11 No. 41-42 · Zona centro de Bucaramanga.</p>
+            <ul style="font-size:0.75rem; color:#475569; margin:0; padding-left:18px; line-height:1.45;">
+                <li><strong>21 Aulas de clase</strong> de gran capacidad (5 asignadas al programa).</li>
+                <li><strong>1 Sala de informática</strong> para formación tecnológica.</li>
+                <li><strong>1 Auditorio Institucional</strong> para eventos académicos, congresos y cátedras magistrales.</li>
+                <li>Zonas de esparcimiento, bienestar universitario, cafetería y enfermería.</li>
+                <li><strong>Ascensor panorámico electromecánico certificado para 8 personas</strong> con botonera braille y avisos sonoros (cumplimiento NTC 4143).</li>
+            </ul>
+        </div>
+
+        <!-- Sede C -->
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px; border-top:3px solid #10B981;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <strong style="color:#1E293B; font-size:0.9rem;">SEDE C (Posgrados & Trabajo Colaborativo)</strong>
+                <span style="background:#D1FAE5; color:#065F46; font-size:0.7rem; font-weight:800; padding:1px 6px; border-radius:4px;">404 m²</span>
+            </div>
+            <p style="font-size:0.75rem; color:#64748B; margin:0 0 8px;"><strong>Dirección:</strong> Carrera 10 No. 41-73 · Zona centro de Bucaramanga.</p>
+            <ul style="font-size:0.75rem; color:#475569; margin:0; padding-left:18px; line-height:1.45;">
+                <li><strong>8 Salones de clase:</strong> Incluye 6 salones de posgrados y espacios modulares.</li>
+                <li><strong>Sala de informática actualizada</strong> con conexión de alta velocidad.</li>
+                <li>Espacios de trabajo colaborativo y salas de estudio para semilleros y proyectos de investigación.</li>
+                <li>Ambiente agradable y silencioso para el desarrollo de actividades académicas especializadas.</li>
+                <li>Oficinas administrativas y acceso a nivel de calle sin barreras arquitectónicas.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SECCIÓN 2: TABLA OFICIAL DE DISPONIBILIDAD DE ESPACIOS (SLIDE 18 PPTX) -->
+<div style="background:#FFFFFF; border-radius:10px; border:1px solid #E5E7EB; padding:18px; margin-bottom:20px; box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+        <h5 style="color:#1A1A1B; font-weight:800; font-size:1.02rem; margin:0; display:flex; align-items:center; gap:8px;">
+            <i class="fas fa-table-cells" style="color:#2563EB;"></i> 2. Matriz Oficial de Disponibilidad de Espacios Físicos por Sede (Slide 18 PPTX)
         </h5>
-        <span style="background:#E0F2FE; color:#0369A1; font-size:0.75rem; font-weight:800; padding:4px 12px; border-radius:12px; border:1px solid #BAE6FD;">
-            3 Sedes Bucaramanga (7.679 m²)
+        <span style="font-size:0.75rem; background:#EFF6FF; color:#1E40AF; padding:3px 10px; border-radius:12px; font-weight:700; border:1px solid #BFDBFE;">
+            Fuente Oficial: Slide 18 Presentación C9
         </span>
     </div>
-
-    <!-- Fichas de Accesibilidad por Sede -->
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:12px; font-size:0.78rem; margin-bottom:16px;">
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:12px; border-radius:6px;">
-            <strong style="color:#0077B6; display:block; margin-bottom:4px;"><i class="fas fa-building"></i> Sede A (Calle 41 # 10-30 - Principal)</strong>
-            Acceso a nivel con <strong>rampa reglamentaria NTC 4143 (pendiente 8%)</strong>, pasillos de 1.80 m libres, batería de baños adaptados en primer piso y plan de evacuación accesible.
-        </div>
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:12px; border-radius:6px;">
-            <strong style="color:#2563EB; display:block; margin-bottom:4px;"><i class="fas fa-elevator"></i> Sede B (Cra 11 # 41-42 - Campus Tecnológico)</strong>
-            Edificio de 5 pisos dotado de <strong>ascensor panorámico electromecánico certificado para 8 personas</strong> con botonera braille y avisos sonoros; baños adaptados en cada piso.
-        </div>
-        <div style="background:#FFFFFF; border:1px solid #E2E8F0; padding:12px; border-radius:6px;">
-            <strong style="color:#10B981; display:block; margin-bottom:4px;"><i class="fas fa-school"></i> Sede C (Calle 42 # 10-25 - Extensión)</strong>
-            Acceso directo a nivel de calle sin desniveles; puertas de doble hoja (1.20 m) en aulas y oficinas; baño con barras de transferencia según normativa NSR-10.
-        </div>
-    </div>
-
-    <!-- Conciliación de Aforos Sede A y Mantenimiento -->
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
-        <div style="background:#EDF8F4; border:1px solid #C6F6D5; border-radius:6px; padding:12px;">
-            <strong style="font-size:0.83rem; color:#14532D; display:block; margin-bottom:4px;">
-                <i class="fas fa-calculator" style="color:#16A34A;"></i> Conciliación de Cifras de Capacidad Sede A (304 vs 388)
-            </strong>
-            <p style="font-size:0.77rem; color:#166534; margin:0; line-height:1.45;">
-                <strong>304 puestos:</strong> Capacidad simultánea exclusiva de aulas de clase teóricas diurnas.<br>
-                <strong>388 puestos (Tabla 55):</strong> Capacidad física total instalada del inmueble (aulas 304 + cómputo móvil 30 + biblioteca 34 + asesoría docente 20).
-            </p>
-        </div>
-        <div style="background:#FFF7ED; border:1px solid #FED7AA; border-radius:6px; padding:12px;">
-            <strong style="font-size:0.83rem; color:#9A3412; display:block; margin-bottom:4px;">
-                <i class="fas fa-screwdriver-wrench" style="color:#F39200;"></i> Plan de Inversión y Mantenimiento ($1.410M)
-            </strong>
-            <p style="font-size:0.77rem; color:#7C2D12; margin:0; line-height:1.45;">
-                Aprobado por el Consejo Superior a 7 años: Adecuaciones y obras físicas ($420M); Reposición tecnológica y redes ($530M); Licencias y plataformas ($280M); Mantenimiento preventivo ($180M).
-            </p>
-        </div>
-    </div>
-</div>
-
-<div style="background:#FFFFFF; border:1px solid #E8E8E8; border-top:5px solid #F39200; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
-    <h5 style="font-family:'Montserrat',sans-serif; font-size:0.95rem; font-weight:800; color:#1A1A1B; margin:0 0 12px;">
-        <i class="fas fa-building" style="color:#F39200; margin-right:6px;"></i> Tabla No. 70 del Documento Maestro: Características y Capacidad Instalada de las Sedes A, B y C en Bucaramanga
-    </h5>
-    <div style="overflow-x:auto; border:1px solid #E2E8F0; border-radius:10px; margin-bottom:18px;">
-        <table class="tbl" style="width:100%; font-size:0.78rem; margin:0;">
-            <thead style="background:#1A1A1B; color:#FFFFFF;">
-                <tr>
-                    <th>Espacio Físico / Sede</th>
-                    <th style="text-align:center;">Metros Construidos</th>
-                    <th style="text-align:center;">Metros Descubiertos</th>
-                    <th style="text-align:center;">Metros de Servicio</th>
-                    <th style="text-align:center;">No. Espacios</th>
-                    <th style="text-align:center;">Capacidad Total (Puestos)</th>
-                    <th>Soportes Legales Radicados</th>
+    
+    <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.8rem; text-align:center;">
+            <thead>
+                <tr style="background:#1A1A1B; color:#FFFFFF;">
+                    <th style="padding:9px 12px; text-align:left; border:1px solid #374151;">Tipo de Espacio Físico</th>
+                    <th style="padding:9px 12px; border:1px solid #374151; width:20%;">Sede A (Calle 41 # 10-30)</th>
+                    <th style="padding:9px 12px; border:1px solid #374151; width:20%;">Sede B (Cra 10 # 35-40)</th>
+                    <th style="padding:9px 12px; border:1px solid #374151; width:20%;">Sede C (Cra 10 # 41-73)</th>
+                    <th style="padding:9px 12px; border:1px solid #374151; width:15%; background:#F39200; color:#FFFFFF;">Total Espacios</th>
                 </tr>
             </thead>
             <tbody>
-                <tr style="background:#FFF7ED;">
-                    <td style="font-weight:800; color:#C2410C;">SEDE A (Principal · Calle 41 No. 10-30)</td>
-                    <td style="text-align:center; font-weight:800;">1.140,25 m²</td>
-                    <td style="text-align:center;">45,22 m²</td>
-                    <td style="text-align:center;">421,67 m²</td>
-                    <td style="text-align:center; font-weight:800;">28</td>
-                    <td style="text-align:center; font-weight:900; color:#C2410C;">388 puestos</td>
-                    <td>Anexo 22 (Contrato Sede A) y Anexo 24 (Uso de Suelo y Licencia)</td>
+                <tr style="background:#FFFFFF;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Salones de Clase</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">10</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">5</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">8</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">23</td>
                 </tr>
-                <tr>
-                    <td style="font-weight:800; color:#1A1A1B;">SEDE B (Campus de Ampliación)</td>
-                    <td style="text-align:center; font-weight:800;">6.135,00 m²</td>
-                    <td style="text-align:center;">0 m²</td>
-                    <td style="text-align:center;">2.437,58 m²</td>
-                    <td style="text-align:center; font-weight:800;">33</td>
-                    <td style="text-align:center; font-weight:900; color:#1A1A1B;">1.358 puestos</td>
-                    <td>Anexo 23 (Contrato Sede B)</td>
+                <tr style="background:#F9FAFB;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Sala de Cómputo / Informática</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">1</td>
                 </tr>
-                <tr style="background:#F8FAFC;">
-                    <td style="font-weight:800; color:#1A1A1B;">SEDE C (Sede Complementaria)</td>
-                    <td style="text-align:center; font-weight:800;">404,00 m²</td>
-                    <td style="text-align:center;">0 m²</td>
-                    <td style="text-align:center;">380,00 m²</td>
-                    <td style="text-align:center; font-weight:800;">7</td>
-                    <td style="text-align:center; font-weight:900; color:#1A1A1B;">159 puestos</td>
-                    <td>Anexo 25 (Contrato Sede C)</td>
+                <tr style="background:#FFFFFF;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Auditorio Institucional</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">1</td>
                 </tr>
-                <tr style="background:#1A1A1B; color:#FFFFFF; font-weight:800;">
-                    <td style="color:#F39200;">TOTAL CAPACIDAD INSTALADA TO</td>
-                    <td style="text-align:center; color:#F39200;">7.679,25 m²</td>
-                    <td style="text-align:center;">45,22 m²</td>
-                    <td style="text-align:center;">3.239,25 m²</td>
-                    <td style="text-align:center; color:#F39200;">68 espacios</td>
-                    <td style="text-align:center; color:#F39200; font-size:0.92rem;">1.905 puestos / jornada</td>
-                    <td>Disponibilidad en 3 franjas horarias (Mañana, Tarde y Noche)</td>
+                <tr style="background:#F9FAFB;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Archivo Institucional</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">0</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">0</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">1</td>
+                </tr>
+                <tr style="background:#FFFFFF;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Cafetería & Zonas de Descanso</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">0</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">2</td>
+                </tr>
+                <tr style="background:#F9FAFB;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Enfermería & Primeros Auxilios</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">0</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">2</td>
+                </tr>
+                <tr style="background:#FFFFFF;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Oficinas Administrativas</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">3</td>
+                </tr>
+                <tr style="background:#F9FAFB;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Rectoría</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">1</td>
+                </tr>
+                <tr style="background:#FFFFFF;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Vicerrectoría</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">1</td>
+                </tr>
+                <tr style="background:#F9FAFB;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Biblioteca Física</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">2</td>
+                </tr>
+                <tr style="background:#FFFFFF;">
+                    <td style="padding:8px 12px; text-align:left; border:1px solid #E5E7EB; font-weight:600; color:#1F2937;">Sala de Lectura</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">1</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; color:#4B5563;">-</td>
+                    <td style="padding:8px 12px; border:1px solid #E5E7EB; font-weight:800; color:#1F2937; background:#F8FAFC;">1</td>
                 </tr>
             </tbody>
         </table>
     </div>
+</div>
 
-    <!-- DETALLE DE AULAS SEDE A (TABLAS 71 Y 72 DM) -->
-    <h5 style="font-family:'Montserrat',sans-serif; font-size:0.9rem; font-weight:800; color:#1A1A1B; margin:0 0 8px;">
-        <i class="fas fa-door-open" style="color:#F39200; margin-right:6px;"></i> Tablas No. 71 y 72 del Documento Maestro: Distribución de las 11 Aulas de la Sede Principal A (394,20 m² en Salones · 304 Puestos por Jornada)
+<!-- SECCIÓN 3: RED INTERNA Y ARQUITECTURA TECNOLÓGICA CLOUD (SLIDES 19 A 26 PPTX) -->
+<div style="background:#FFFFFF; border-radius:10px; border:1px solid #E5E7EB; padding:18px; margin-bottom:20px; box-shadow:0 2px 10px rgba(0,0,0,0.04);">
+    <h5 style="color:#1A1A1B; font-weight:800; font-size:1.02rem; margin:0 0 12px; display:flex; align-items:center; gap:8px;">
+        <i class="fas fa-server" style="color:#10B981;"></i> 3. Red Interna de Comunicaciones y Arquitectura Cloud de Sistemas
     </h5>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:8px; font-size:0.73rem;">
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 1:</strong> 30 puestos (37,98 m²)</div>
-        <div style="background:#FFF7ED; border:1px solid #FED7AA; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 2 (Aula Móvil):</strong> 30 puestos (45,43 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 3:</strong> 40 puestos (45,31 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 4:</strong> 15 puestos (32,32 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 5:</strong> 25 puestos (27,10 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 6:</strong> 28 puestos (30,57 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 7:</strong> 19 puestos (22,73 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 8:</strong> 44 puestos (42,46 m²)</div>
-        <div style="background:#FFF7ED; border:1px solid #FED7AA; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 9:</strong> 23 puestos (44,41 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 10:</strong> 15 puestos (19,26 m²)</div>
-        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:6px; padding:8px; text-align:center;"><strong>Aula 11:</strong> 35 puestos (46,63 m²)</div>
+    
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:14px; margin-bottom:14px;">
+        <!-- Red Interna Sede A y C -->
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px;">
+            <strong style="color:#1E293B; font-size:0.86rem; display:block; margin-bottom:6px;">
+                <i class="fas fa-network-wired" style="color:#2563EB;"></i> Red Interna y Conectividad (Slides 20 y 21)
+            </strong>
+            <ul style="font-size:0.77rem; color:#475569; margin:0; padding-left:18px; line-height:1.45;">
+                <li><strong>Sede A:</strong> Enlace corporativo de fibra óptica simétrica (Claro 100/300 Mbps), telefonía IP centralizada y <strong>cuatro (4) Puntos de Acceso (AP) Wi-Fi</strong> empresariales de alta densidad.</li>
+                <li><strong>Sede C:</strong> Conectividad gigabit estructurada con switch PoE dedicado y enlace de fibra simétrica para salones de posgrados y trabajo colaborativo.</li>
+                <li><strong>Seguridad de Red:</strong> Segmentación por VLANs (Administrativa, Docente, Estudiantil e Invitados) con políticas de firewall UTM.</li>
+            </ul>
+        </div>
+
+        <!-- Arquitectura Moodle en AWS -->
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:8px; padding:14px;">
+            <strong style="color:#1E293B; font-size:0.86rem; display:block; margin-bottom:6px;">
+                <i class="fab fa-aws" style="color:#F39200;"></i> Arquitectura Cloud Moodle en AWS (Slides 24 a 26)
+            </strong>
+            <ul style="font-size:0.77rem; color:#475569; margin:0; padding-left:18px; line-height:1.45;">
+                <li><strong>Balanceo de Carga:</strong> AWS Application Load Balancer (ALB) distribuyendo tráfico SSL/TLS en múltiples zonas de disponibilidad (Multi-AZ).</li>
+                <li><strong>Cómputo Elástico:</strong> Clúster de instancias Amazon EC2 con Auto Scaling Group para atender incrementos repentinos de concurrencia.</li>
+                <li><strong>Capa de Datos:</strong> Amazon Aurora RDS PostgreSQL/MySQL de alta disponibilidad con copias de seguridad automáticas y réplicas de lectura.</li>
+                <li><strong>Almacenamiento:</strong> Amazon S3 y CloudFront CDN para entrega acelerada de recursos multimedia y contenidos SCORM.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Conciliación de Aforo Sede A y Mantenimiento -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:12px;">
+        <div style="background:#EDF8F4; border:1px solid #C6F6D5; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#14532D; display:block; margin-bottom:4px;">
+                <i class="fas fa-calculator" style="color:#16A34A;"></i> Conciliación Oficial de Capacidad Sede A (304 vs. 388 Puestos)
+            </strong>
+            <p style="font-size:0.77rem; color:#166534; margin:0; line-height:1.45;">
+                <strong>304 puestos:</strong> Capacidad simultánea de los 10 salones teóricos diurnos.<br>
+                <strong>388 puestos (Tabla 55 DM):</strong> Capacidad física total del inmueble (aulas 304 + cómputo móvil 30 + biblioteca y lectura 34 + asesoría docente 20).
+            </p>
+        </div>
+        <div style="background:#FFF7ED; border:1px solid #FED7AA; border-radius:6px; padding:12px;">
+            <strong style="font-size:0.83rem; color:#9A3412; display:block; margin-bottom:4px;">
+                <i class="fas fa-screwdriver-wrench" style="color:#F39200;"></i> Plan de Inversión y Mantenimiento ($1.410.000.000 COP)
+            </strong>
+            <p style="font-size:0.77rem; color:#7C2D12; margin:0; line-height:1.45;">
+                Aprobado por el Consejo Superior a 7 años: Adecuaciones físicas ($420M), Reposición tecnológica y redes ($530M), Licencias y plataformas ($280M) y Mantenimiento preventivo/correctivo ($180M).
+            </p>
+        </div>
     </div>
 </div>
 `;
